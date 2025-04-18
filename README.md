@@ -14,6 +14,7 @@ A simple ASP.NET Core Web API that helps users track their income, expenses, and
 - AutoMapper
 - xUnit (for testing)
 - Swagger (for API docs)
+- Serilog (Logging)
 
 ---
 
@@ -59,3 +60,8 @@ cd FinanceTrackerAPI
 dotnet restore
 dotnet ef database update
 dotnet run
+
+# Add Serilog packages
+dotnet add package Serilog.AspNetCore
+dotnet add package Serilog.Sinks.Console
+dotnet add package Serilog.Sinks.File

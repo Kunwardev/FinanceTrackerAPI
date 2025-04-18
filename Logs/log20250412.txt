@@ -1,0 +1,1296 @@
+2025-04-12 00:13:03.587 -04:00 [INF] Starting the application
+2025-04-12 00:13:03.633 -04:00 [FTL] Application Startup Failed
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Program.cs:line 25
+2025-04-12 00:13:06.548 -04:00 [INF] Starting the application
+2025-04-12 00:13:06.593 -04:00 [FTL] Application Startup Failed
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Program.cs:line 25
+2025-04-12 11:04:05.799 -04:00 [INF] Starting the application
+2025-04-12 11:04:05.882 -04:00 [INF] Now listening on: http://localhost:5146
+2025-04-12 11:04:05.884 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-12 11:04:05.885 -04:00 [INF] Hosting environment: Development
+2025-04-12 11:04:05.885 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-12 11:04:23.442 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/ - null null
+2025-04-12 11:04:23.456 -04:00 [WRN] Failed to determine the https port for redirect.
+2025-04-12 11:04:23.458 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/ - 404 0 null 16.7984ms
+2025-04-12 11:04:23.463 -04:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5146/, Response status code: 404
+2025-04-12 11:04:25.939 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/ - null null
+2025-04-12 11:04:25.940 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/ - 404 0 null 1.8699ms
+2025-04-12 11:04:25.940 -04:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5146/, Response status code: 404
+2025-04-12 11:52:40.437 -04:00 [INF] Starting the application
+2025-04-12 11:52:40.512 -04:00 [INF] Now listening on: http://localhost:5146
+2025-04-12 11:52:40.515 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-12 11:52:40.515 -04:00 [INF] Hosting environment: Development
+2025-04-12 11:52:40.515 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-12 11:52:52.217 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/ - null null
+2025-04-12 11:52:52.230 -04:00 [WRN] Failed to determine the https port for redirect.
+2025-04-12 11:52:52.233 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/ - 404 0 null 17.0492ms
+2025-04-12 11:52:52.247 -04:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5146/, Response status code: 404
+2025-04-12 11:55:04.266 -04:00 [INF] Starting the application
+2025-04-12 11:55:04.345 -04:00 [INF] Now listening on: http://localhost:5146
+2025-04-12 11:55:04.348 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-12 11:55:04.348 -04:00 [INF] Hosting environment: Development
+2025-04-12 11:55:04.348 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-12 11:55:35.719 -04:00 [INF] Starting the application
+2025-04-12 11:55:35.792 -04:00 [INF] Now listening on: http://localhost:5146
+2025-04-12 11:55:35.795 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-12 11:55:35.795 -04:00 [INF] Hosting environment: Development
+2025-04-12 11:55:35.795 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-12 11:55:46.982 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/ - null null
+2025-04-12 11:55:46.994 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/ - 404 0 null 12.3249ms
+2025-04-12 11:55:46.999 -04:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5146/, Response status code: 404
+2025-04-12 11:55:51.191 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/swagger/index.html - null null
+2025-04-12 11:55:51.238 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/swagger/index.html - 200 null text/html;charset=utf-8 47.6423ms
+2025-04-12 11:55:51.288 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/swagger/v1/swagger.json - null null
+2025-04-12 11:55:51.293 -04:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-04-12 11:55:51.300 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 12.4304ms
+2025-04-12 11:56:40.323 -04:00 [INF] Starting the application
+2025-04-12 11:56:40.401 -04:00 [INF] Now listening on: http://localhost:5146
+2025-04-12 11:56:40.404 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-12 11:56:40.404 -04:00 [INF] Hosting environment: Development
+2025-04-12 11:56:40.404 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-12 11:56:43.864 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/swagger/index.html - null null
+2025-04-12 11:56:43.913 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/swagger/index.html - 200 null text/html;charset=utf-8 49.0725ms
+2025-04-12 11:56:43.945 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/swagger/v1/swagger.json - null null
+2025-04-12 11:56:43.949 -04:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-04-12 11:56:43.955 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.5587ms
+2025-04-12 12:12:08.144 -04:00 [INF] Starting the application
+2025-04-12 12:12:08.269 -04:00 [INF] Now listening on: http://localhost:5146
+2025-04-12 12:12:08.272 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-12 12:12:08.272 -04:00 [INF] Hosting environment: Development
+2025-04-12 12:12:08.272 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-12 12:12:53.894 -04:00 [INF] Starting the application
+2025-04-12 12:12:53.971 -04:00 [INF] Now listening on: http://localhost:5146
+2025-04-12 12:12:53.973 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-12 12:12:53.973 -04:00 [INF] Hosting environment: Development
+2025-04-12 12:12:53.973 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-12 12:13:00.913 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/ - null null
+2025-04-12 12:13:00.932 -04:00 [WRN] Failed to determine the https port for redirect.
+2025-04-12 12:13:00.934 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/ - 404 0 null 21.4753ms
+2025-04-12 12:13:00.938 -04:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5146/, Response status code: 404
+2025-04-12 12:13:01.814 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/ - null null
+2025-04-12 12:13:01.815 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/ - 404 0 null 1.6803ms
+2025-04-12 12:13:01.815 -04:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5146/, Response status code: 404
+2025-04-12 12:13:53.514 -04:00 [INF] Starting the application
+2025-04-12 12:13:53.612 -04:00 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5146: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-04-12 12:13:53.627 -04:00 [FTL] Application Startup Failed
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5146: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Program.<Main>$(String[] args) in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Program.cs:line 39
+2025-04-12 12:14:10.154 -04:00 [INF] Starting the application
+2025-04-12 12:14:10.227 -04:00 [INF] Now listening on: http://localhost:5146
+2025-04-12 12:14:10.230 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-12 12:14:10.230 -04:00 [INF] Hosting environment: Development
+2025-04-12 12:14:10.230 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-12 12:14:22.932 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/api/IncomeController/getall - null null
+2025-04-12 12:14:22.942 -04:00 [WRN] Failed to determine the https port for redirect.
+2025-04-12 12:14:22.943 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/api/IncomeController/getall - 404 0 null 12.4842ms
+2025-04-12 12:14:22.946 -04:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5146/api/IncomeController/getall, Response status code: 404
+2025-04-12 12:14:28.590 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/api/IncomeController/GetAll - null null
+2025-04-12 12:14:28.592 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/api/IncomeController/GetAll - 404 0 null 2.6569ms
+2025-04-12 12:14:28.592 -04:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5146/api/IncomeController/GetAll, Response status code: 404
+2025-04-12 12:15:56.001 -04:00 [INF] Starting the application
+2025-04-12 12:15:56.080 -04:00 [INF] Now listening on: http://localhost:5146
+2025-04-12 12:15:56.083 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-12 12:15:56.083 -04:00 [INF] Hosting environment: Development
+2025-04-12 12:15:56.083 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-12 12:15:59.649 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/api/Income/GetAll - null null
+2025-04-12 12:15:59.660 -04:00 [WRN] Failed to determine the https port for redirect.
+2025-04-12 12:15:59.661 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/api/Income/GetAll - 404 0 null 12.8022ms
+2025-04-12 12:15:59.665 -04:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5146/api/Income/GetAll, Response status code: 404
+2025-04-12 12:16:00.721 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/api/Income/GetAll - null null
+2025-04-12 12:16:00.723 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/api/Income/GetAll - 404 0 null 1.7382ms
+2025-04-12 12:16:00.723 -04:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5146/api/Income/GetAll, Response status code: 404
+2025-04-12 12:16:03.113 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/api/Income/GetAll - null null
+2025-04-12 12:16:03.115 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/api/Income/GetAll - 404 0 null 1.594ms
+2025-04-12 12:16:03.115 -04:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5146/api/Income/GetAll, Response status code: 404
+2025-04-12 12:16:03.798 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/api/Income/GetAll - null null
+2025-04-12 12:16:03.798 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/api/Income/GetAll - 404 0 null 0.5258ms
+2025-04-12 12:16:03.798 -04:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5146/api/Income/GetAll, Response status code: 404
+2025-04-12 12:16:22.880 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/swagger/index.html - null null
+2025-04-12 12:16:22.927 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/swagger/index.html - 200 null text/html;charset=utf-8 47.0415ms
+2025-04-12 12:16:22.980 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/swagger/v1/swagger.json - null null
+2025-04-12 12:16:22.984 -04:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-04-12 12:16:22.992 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 12.3349ms
+2025-04-12 12:16:40.122 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/swagger/v1/swagger.json - null null
+2025-04-12 12:16:40.124 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1.7738ms
+2025-04-12 12:33:15.181 -04:00 [INF] Starting the application
+2025-04-12 12:33:15.223 -04:00 [FTL] Application Startup Failed
+System.InvalidOperationException: Unable to find the required services. Please add all the required services by calling 'IServiceCollection.AddAuthorization' in the application startup code.
+   at Microsoft.AspNetCore.Builder.AuthorizationAppBuilderExtensions.VerifyServicesRegistered(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Builder.AuthorizationAppBuilderExtensions.UseAuthorization(IApplicationBuilder app)
+   at Program.<Main>$(String[] args) in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Program.cs:line 30
+2025-04-12 12:45:23.404 -04:00 [INF] Starting the application
+2025-04-12 12:45:23.449 -04:00 [FTL] Application Startup Failed
+System.InvalidOperationException: Unable to find the required services. Please add all the required services by calling 'IServiceCollection.AddAuthorization' in the application startup code.
+   at Microsoft.AspNetCore.Builder.AuthorizationAppBuilderExtensions.VerifyServicesRegistered(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Builder.AuthorizationAppBuilderExtensions.UseAuthorization(IApplicationBuilder app)
+   at Program.<Main>$(String[] args) in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Program.cs:line 30
+2025-04-12 12:47:19.714 -04:00 [INF] Starting the application
+2025-04-12 12:47:19.757 -04:00 [FTL] Application Startup Failed
+System.InvalidOperationException: Unable to find the required services. Please add all the required services by calling 'IServiceCollection.AddAuthorization' in the application startup code.
+   at Microsoft.AspNetCore.Builder.AuthorizationAppBuilderExtensions.VerifyServicesRegistered(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Builder.AuthorizationAppBuilderExtensions.UseAuthorization(IApplicationBuilder app)
+   at Program.<Main>$(String[] args) in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Program.cs:line 30
+2025-04-12 12:47:54.762 -04:00 [INF] Starting the application
+2025-04-12 12:47:54.805 -04:00 [FTL] Application Startup Failed
+System.InvalidOperationException: Unable to find the required services. Please add all the required services by calling 'IServiceCollection.AddControllers' inside the call to 'ConfigureServices(...)' in the application startup code.
+   at Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.EnsureControllerServices(IEndpointRouteBuilder endpoints)
+   at Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapControllers(IEndpointRouteBuilder endpoints)
+   at Program.<Main>$(String[] args) in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Program.cs:line 32
+2025-04-12 12:48:18.972 -04:00 [INF] Starting the application
+2025-04-12 12:48:19.073 -04:00 [INF] Now listening on: http://localhost:5146
+2025-04-12 12:48:19.075 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-12 12:48:19.075 -04:00 [INF] Hosting environment: Development
+2025-04-12 12:48:19.075 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-12 12:48:24.102 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/api/Income/GetAll - null null
+2025-04-12 12:48:24.112 -04:00 [WRN] Failed to determine the https port for redirect.
+2025-04-12 12:48:24.118 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 12:48:24.128 -04:00 [INF] Route matched with {action = "GetAll", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FinanceTrackerAPI.DTO.IncomeDTO]]] GetAll() on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 12:48:24.223 -04:00 [INF] Getting All the Data
+2025-04-12 12:48:24.223 -04:00 [ERR] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at FinanceTrackerAPI.Data.Repositories.IncomeRepository.GetAllAsync() in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Data/Repositories/IncomeRepository.cs:line 47
+2025-04-12 12:48:24.234 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FinanceTrackerAPI.DTO.IncomeDTO, FinanceTrackerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-12 12:48:24.260 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI) in 130.5109ms
+2025-04-12 12:48:24.261 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 12:48:24.262 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/api/Income/GetAll - 200 null application/json; charset=utf-8 161.0225ms
+2025-04-12 12:50:23.764 -04:00 [INF] Starting the application
+2025-04-12 12:50:23.860 -04:00 [INF] Now listening on: http://localhost:5146
+2025-04-12 12:50:23.862 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-12 12:50:23.862 -04:00 [INF] Hosting environment: Development
+2025-04-12 12:50:23.862 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-12 12:50:27.656 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/api/Income/add - application/json 50
+2025-04-12 12:50:27.667 -04:00 [WRN] Failed to determine the https port for redirect.
+2025-04-12 12:50:27.673 -04:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-04-12 12:50:27.673 -04:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-04-12 12:50:27.674 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/api/Income/add - 405 0 null 19.6018ms
+2025-04-12 12:51:11.132 -04:00 [INF] Starting the application
+2025-04-12 12:51:11.218 -04:00 [INF] Now listening on: http://localhost:5146
+2025-04-12 12:51:11.221 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-12 12:51:11.221 -04:00 [INF] Hosting environment: Development
+2025-04-12 12:51:11.221 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-12 12:51:17.080 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/api/Income/add - application/json 50
+2025-04-12 12:51:17.091 -04:00 [WRN] Failed to determine the https port for redirect.
+2025-04-12 12:51:17.097 -04:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-04-12 12:51:17.097 -04:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-04-12 12:51:17.099 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/api/Income/add - 405 0 null 19.5602ms
+2025-04-12 12:51:18.161 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/api/Income/add - application/json 50
+2025-04-12 12:51:18.164 -04:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-04-12 12:51:18.164 -04:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-04-12 12:51:18.165 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/api/Income/add - 405 0 null 5.1818ms
+2025-04-12 12:51:20.876 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/api/Income/getAll - application/json 50
+2025-04-12 12:51:20.892 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 12:51:20.904 -04:00 [INF] Route matched with {action = "GetAll", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FinanceTrackerAPI.DTO.IncomeDTO]]] GetAll() on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 12:51:21.001 -04:00 [INF] Getting All the Data
+2025-04-12 12:51:21.001 -04:00 [ERR] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at FinanceTrackerAPI.Data.Repositories.IncomeRepository.GetAllAsync() in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Data/Repositories/IncomeRepository.cs:line 47
+2025-04-12 12:51:21.012 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FinanceTrackerAPI.DTO.IncomeDTO, FinanceTrackerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-12 12:51:21.038 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI) in 133.0725ms
+2025-04-12 12:51:21.039 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 12:51:21.039 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/api/Income/getAll - 200 null application/json; charset=utf-8 163.3512ms
+2025-04-12 12:51:52.050 -04:00 [INF] Starting the application
+2025-04-12 12:51:52.139 -04:00 [INF] Now listening on: http://localhost:5146
+2025-04-12 12:51:52.141 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-12 12:51:52.141 -04:00 [INF] Hosting environment: Development
+2025-04-12 12:51:52.141 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-12 12:51:54.902 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/api/Income/getAll - application/json 50
+2025-04-12 12:51:54.913 -04:00 [WRN] Failed to determine the https port for redirect.
+2025-04-12 12:51:54.919 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 12:51:54.928 -04:00 [INF] Route matched with {action = "GetAll", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FinanceTrackerAPI.DTO.IncomeDTO]]] GetAll() on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 12:51:55.009 -04:00 [INF] Getting All the Data
+2025-04-12 12:51:55.009 -04:00 [ERR] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at FinanceTrackerAPI.Data.Repositories.IncomeRepository.GetAllAsync() in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Data/Repositories/IncomeRepository.cs:line 47
+2025-04-12 12:51:55.019 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FinanceTrackerAPI.DTO.IncomeDTO, FinanceTrackerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-12 12:51:55.044 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI) in 114.7475ms
+2025-04-12 12:51:55.046 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 12:51:55.047 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/api/Income/getAll - 200 null application/json; charset=utf-8 145.1358ms
+2025-04-12 12:52:58.549 -04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5146/api/Income/add - application/json 50
+2025-04-12 12:52:58.551 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.Create (FinanceTrackerAPI)'
+2025-04-12 12:52:58.556 -04:00 [INF] Route matched with {action = "Create", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[FinanceTrackerAPI.DTO.IncomeDTO]] Create(FinanceTrackerAPI.DTO.IncomeDTO) on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 12:53:05.093 -04:00 [INF] Starting the application
+2025-04-12 12:53:05.180 -04:00 [INF] Now listening on: http://localhost:5146
+2025-04-12 12:53:05.183 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-12 12:53:05.183 -04:00 [INF] Hosting environment: Development
+2025-04-12 12:53:05.183 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-12 12:53:09.676 -04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5146/api/Income/add - application/json 50
+2025-04-12 12:53:09.686 -04:00 [WRN] Failed to determine the https port for redirect.
+2025-04-12 12:53:09.691 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.Create (FinanceTrackerAPI)'
+2025-04-12 12:53:09.702 -04:00 [INF] Route matched with {action = "Create", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[FinanceTrackerAPI.DTO.IncomeDTO]] Create(FinanceTrackerAPI.DTO.IncomeDTO) on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 12:54:29.307 -04:00 [INF] Starting the application
+2025-04-12 12:54:29.404 -04:00 [INF] Now listening on: http://localhost:5146
+2025-04-12 12:54:29.407 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-12 12:54:29.408 -04:00 [INF] Hosting environment: Development
+2025-04-12 12:54:29.408 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-12 12:54:34.137 -04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5146/api/Income/add - application/json 50
+2025-04-12 12:54:34.147 -04:00 [WRN] Failed to determine the https port for redirect.
+2025-04-12 12:54:34.153 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.Create (FinanceTrackerAPI)'
+2025-04-12 12:54:34.163 -04:00 [INF] Route matched with {action = "Create", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[FinanceTrackerAPI.DTO.IncomeDTO]] Create(FinanceTrackerAPI.DTO.IncomeDTO) on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 12:55:23.811 -04:00 [INF] Starting the application
+2025-04-12 12:55:23.896 -04:00 [INF] Now listening on: http://localhost:5146
+2025-04-12 12:55:23.899 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-12 12:55:23.899 -04:00 [INF] Hosting environment: Development
+2025-04-12 12:55:23.899 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-12 12:55:27.535 -04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5146/api/Income/add - application/json 50
+2025-04-12 12:55:27.548 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.Create (FinanceTrackerAPI)'
+2025-04-12 12:55:27.559 -04:00 [INF] Route matched with {action = "Create", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[FinanceTrackerAPI.DTO.IncomeDTO]] Create(FinanceTrackerAPI.DTO.IncomeDTO) on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 12:56:41.477 -04:00 [INF] Starting the application
+2025-04-12 12:56:41.575 -04:00 [INF] Now listening on: http://localhost:5146
+2025-04-12 12:56:41.578 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-12 12:56:41.578 -04:00 [INF] Hosting environment: Development
+2025-04-12 12:56:41.578 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-12 12:56:44.866 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/swagger/index.html - null null
+2025-04-12 12:56:44.920 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/swagger/index.html - 200 null text/html;charset=utf-8 54.8542ms
+2025-04-12 12:56:44.971 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/swagger/v1/swagger.json - null null
+2025-04-12 12:56:45.013 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 43.179ms
+2025-04-12 12:57:09.456 -04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5146/api/Income/add - application/json 93
+2025-04-12 12:57:09.462 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.Create (FinanceTrackerAPI)'
+2025-04-12 12:57:09.474 -04:00 [INF] Route matched with {action = "Create", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[FinanceTrackerAPI.DTO.IncomeDTO]] Create(FinanceTrackerAPI.DTO.IncomeDTO) on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 12:59:35.917 -04:00 [INF] Starting the application
+2025-04-12 12:59:36.015 -04:00 [INF] Now listening on: http://localhost:5146
+2025-04-12 12:59:36.017 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-12 12:59:36.017 -04:00 [INF] Hosting environment: Development
+2025-04-12 12:59:36.017 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-12 12:59:40.994 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/swagger/index.html - null null
+2025-04-12 12:59:41.050 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/swagger/index.html - 200 null text/html;charset=utf-8 56.0142ms
+2025-04-12 12:59:41.081 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/swagger/v1/swagger.json - null null
+2025-04-12 12:59:41.123 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 41.5917ms
+2025-04-12 12:59:55.676 -04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5146/api/Income/add - application/json 93
+2025-04-12 12:59:55.682 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.Create (FinanceTrackerAPI)'
+2025-04-12 12:59:55.695 -04:00 [INF] Route matched with {action = "Create", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[FinanceTrackerAPI.DTO.IncomeDTO]] Create(FinanceTrackerAPI.DTO.IncomeDTO) on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 12:59:55.821 -04:00 [INF] Adding Income to the Database
+2025-04-12 12:59:55.821 -04:00 [ERR] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at FinanceTrackerAPI.Data.Repositories.IncomeRepository.AddAsync(Income income) in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Data/Repositories/IncomeRepository.cs:line 18
+2025-04-12 12:59:55.828 -04:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2025-04-12 12:59:55.829 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.Create (FinanceTrackerAPI) in 132.7085ms
+2025-04-12 12:59:55.830 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.Create (FinanceTrackerAPI)'
+2025-04-12 12:59:55.830 -04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5146/api/Income/add - 200 0 null 153.9362ms
+2025-04-12 13:00:04.422 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/api/Income/getall - null null
+2025-04-12 13:00:04.425 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 13:00:04.429 -04:00 [INF] Route matched with {action = "GetAll", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FinanceTrackerAPI.DTO.IncomeDTO]]] GetAll() on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 13:00:04.434 -04:00 [INF] Getting All the Data
+2025-04-12 13:00:04.434 -04:00 [ERR] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at FinanceTrackerAPI.Data.Repositories.IncomeRepository.GetAllAsync() in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Data/Repositories/IncomeRepository.cs:line 47
+2025-04-12 13:00:04.439 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FinanceTrackerAPI.DTO.IncomeDTO, FinanceTrackerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-12 13:00:04.444 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI) in 14.3625ms
+2025-04-12 13:00:04.444 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 13:00:04.444 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/api/Income/getall - 200 null application/json; charset=utf-8 21.6312ms
+2025-04-12 13:00:05.947 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/api/Income/getall - null null
+2025-04-12 13:00:05.948 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 13:00:05.948 -04:00 [INF] Route matched with {action = "GetAll", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FinanceTrackerAPI.DTO.IncomeDTO]]] GetAll() on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 13:00:05.952 -04:00 [INF] Getting All the Data
+2025-04-12 13:00:05.952 -04:00 [ERR] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at FinanceTrackerAPI.Data.Repositories.IncomeRepository.GetAllAsync() in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Data/Repositories/IncomeRepository.cs:line 47
+2025-04-12 13:00:05.953 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FinanceTrackerAPI.DTO.IncomeDTO, FinanceTrackerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-12 13:00:05.954 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI) in 5.0622ms
+2025-04-12 13:00:05.954 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 13:00:05.954 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/api/Income/getall - 200 null application/json; charset=utf-8 6.9655ms
+2025-04-12 13:00:11.046 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/api/Income/getAll - application/json 50
+2025-04-12 13:00:11.047 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 13:00:11.047 -04:00 [INF] Route matched with {action = "GetAll", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FinanceTrackerAPI.DTO.IncomeDTO]]] GetAll() on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 13:00:11.048 -04:00 [INF] Getting All the Data
+2025-04-12 13:00:11.048 -04:00 [ERR] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at FinanceTrackerAPI.Data.Repositories.IncomeRepository.GetAllAsync() in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Data/Repositories/IncomeRepository.cs:line 47
+2025-04-12 13:00:11.049 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FinanceTrackerAPI.DTO.IncomeDTO, FinanceTrackerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-12 13:00:11.050 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI) in 2.6472ms
+2025-04-12 13:00:11.050 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 13:00:11.050 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/api/Income/getAll - 200 null application/json; charset=utf-8 3.4991ms
+2025-04-12 13:00:11.981 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/api/Income/getAll - application/json 50
+2025-04-12 13:00:11.981 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 13:00:11.981 -04:00 [INF] Route matched with {action = "GetAll", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FinanceTrackerAPI.DTO.IncomeDTO]]] GetAll() on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 13:00:11.983 -04:00 [INF] Getting All the Data
+2025-04-12 13:00:11.986 -04:00 [ERR] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at FinanceTrackerAPI.Data.Repositories.IncomeRepository.GetAllAsync() in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Data/Repositories/IncomeRepository.cs:line 47
+2025-04-12 13:00:11.987 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FinanceTrackerAPI.DTO.IncomeDTO, FinanceTrackerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-12 13:00:11.988 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI) in 6.0742ms
+2025-04-12 13:00:11.988 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 13:00:11.988 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/api/Income/getAll - 200 null application/json; charset=utf-8 7.2629ms
+2025-04-12 13:00:33.169 -04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5146/api/Income/add - application/json 50
+2025-04-12 13:00:33.170 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.Create (FinanceTrackerAPI)'
+2025-04-12 13:00:33.171 -04:00 [INF] Route matched with {action = "Create", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[FinanceTrackerAPI.DTO.IncomeDTO]] Create(FinanceTrackerAPI.DTO.IncomeDTO) on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 13:00:33.173 -04:00 [INF] Adding Income to the Database
+2025-04-12 13:00:33.173 -04:00 [ERR] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at FinanceTrackerAPI.Data.Repositories.IncomeRepository.AddAsync(Income income) in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Data/Repositories/IncomeRepository.cs:line 18
+2025-04-12 13:00:33.173 -04:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2025-04-12 13:00:33.174 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.Create (FinanceTrackerAPI) in 2.7679ms
+2025-04-12 13:00:33.174 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.Create (FinanceTrackerAPI)'
+2025-04-12 13:00:33.174 -04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5146/api/Income/add - 200 0 null 4.6492ms
+2025-04-12 13:00:39.799 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/api/Income/getall - application/json 50
+2025-04-12 13:00:39.800 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 13:00:39.800 -04:00 [INF] Route matched with {action = "GetAll", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FinanceTrackerAPI.DTO.IncomeDTO]]] GetAll() on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 13:00:39.801 -04:00 [INF] Getting All the Data
+2025-04-12 13:00:39.802 -04:00 [ERR] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at FinanceTrackerAPI.Data.Repositories.IncomeRepository.GetAllAsync() in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Data/Repositories/IncomeRepository.cs:line 47
+2025-04-12 13:00:39.803 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FinanceTrackerAPI.DTO.IncomeDTO, FinanceTrackerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-12 13:00:39.803 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI) in 2.4898ms
+2025-04-12 13:00:39.803 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 13:00:39.803 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/api/Income/getall - 200 null application/json; charset=utf-8 4.3794ms
+2025-04-12 13:00:40.737 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/api/Income/getall - application/json 50
+2025-04-12 13:00:40.737 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 13:00:40.737 -04:00 [INF] Route matched with {action = "GetAll", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FinanceTrackerAPI.DTO.IncomeDTO]]] GetAll() on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 13:00:40.743 -04:00 [INF] Getting All the Data
+2025-04-12 13:00:40.745 -04:00 [ERR] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at FinanceTrackerAPI.Data.Repositories.IncomeRepository.GetAllAsync() in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Data/Repositories/IncomeRepository.cs:line 47
+2025-04-12 13:00:40.745 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FinanceTrackerAPI.DTO.IncomeDTO, FinanceTrackerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-12 13:00:40.745 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI) in 8.0107ms
+2025-04-12 13:00:40.746 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 13:00:40.746 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/api/Income/getall - 200 null application/json; charset=utf-8 8.6372ms
+2025-04-12 16:27:11.369 -04:00 [INF] Starting the application
+2025-04-12 16:27:11.469 -04:00 [INF] Now listening on: http://localhost:5146
+2025-04-12 16:27:11.471 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-12 16:27:11.471 -04:00 [INF] Hosting environment: Development
+2025-04-12 16:27:11.471 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-12 16:27:41.795 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/swagger/index.html - null null
+2025-04-12 16:27:41.850 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/swagger/index.html - 200 null text/html;charset=utf-8 56.362ms
+2025-04-12 16:27:41.896 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/swagger/v1/swagger.json - null null
+2025-04-12 16:27:41.939 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 42.8729ms
+2025-04-12 16:27:47.630 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/api/Income/getall - null null
+2025-04-12 16:27:47.637 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 16:27:47.647 -04:00 [INF] Route matched with {action = "GetAll", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FinanceTrackerAPI.DTO.IncomeDTO]]] GetAll() on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 16:27:47.758 -04:00 [INF] Getting All the Data
+2025-04-12 16:27:47.759 -04:00 [ERR] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at FinanceTrackerAPI.Data.Repositories.IncomeRepository.GetAllAsync() in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Data/Repositories/IncomeRepository.cs:line 47
+2025-04-12 16:27:47.770 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FinanceTrackerAPI.DTO.IncomeDTO, FinanceTrackerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-12 16:27:47.786 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI) in 137.1094ms
+2025-04-12 16:27:47.786 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 16:27:47.786 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/api/Income/getall - 200 null application/json; charset=utf-8 156.2397ms
+2025-04-12 16:28:12.651 -04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5146/api/Income/add - application/json 100
+2025-04-12 16:28:12.654 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.Create (FinanceTrackerAPI)'
+2025-04-12 16:28:12.658 -04:00 [INF] Route matched with {action = "Create", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[FinanceTrackerAPI.DTO.IncomeDTO]] Create(FinanceTrackerAPI.DTO.IncomeDTO) on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 16:28:12.677 -04:00 [INF] Adding Income to the Database
+2025-04-12 16:28:12.678 -04:00 [ERR] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at FinanceTrackerAPI.Data.Repositories.IncomeRepository.AddAsync(Income income) in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Data/Repositories/IncomeRepository.cs:line 18
+2025-04-12 16:28:12.680 -04:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2025-04-12 16:28:12.680 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.Create (FinanceTrackerAPI) in 21.1512ms
+2025-04-12 16:28:12.680 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.Create (FinanceTrackerAPI)'
+2025-04-12 16:28:12.680 -04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5146/api/Income/add - 200 0 null 29.1402ms
+2025-04-12 16:28:20.191 -04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5146/api/Income/add - application/json 100
+2025-04-12 16:28:20.192 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.Create (FinanceTrackerAPI)'
+2025-04-12 16:28:20.192 -04:00 [INF] Route matched with {action = "Create", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[FinanceTrackerAPI.DTO.IncomeDTO]] Create(FinanceTrackerAPI.DTO.IncomeDTO) on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 16:28:20.197 -04:00 [INF] Adding Income to the Database
+2025-04-12 16:28:20.197 -04:00 [ERR] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at FinanceTrackerAPI.Data.Repositories.IncomeRepository.AddAsync(Income income) in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Data/Repositories/IncomeRepository.cs:line 18
+2025-04-12 16:28:20.197 -04:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2025-04-12 16:28:20.198 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.Create (FinanceTrackerAPI) in 5.5965ms
+2025-04-12 16:28:20.198 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.Create (FinanceTrackerAPI)'
+2025-04-12 16:28:20.198 -04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5146/api/Income/add - 200 0 null 6.5832ms
+2025-04-12 16:33:09.371 -04:00 [INF] Starting the application
+2025-04-12 16:33:09.463 -04:00 [INF] Now listening on: http://localhost:5146
+2025-04-12 16:33:09.466 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-12 16:33:09.466 -04:00 [INF] Hosting environment: Development
+2025-04-12 16:33:09.466 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-12 16:33:14.016 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/api/Income/getall - application/json 50
+2025-04-12 16:33:14.032 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 16:33:14.042 -04:00 [INF] Route matched with {action = "GetAll", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FinanceTrackerAPI.DTO.IncomeDTO]]] GetAll() on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 16:33:14.128 -04:00 [INF] Getting All the Data
+2025-04-12 16:33:14.128 -04:00 [ERR] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at FinanceTrackerAPI.Data.Repositories.IncomeRepository.GetAllAsync() in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Data/Repositories/IncomeRepository.cs:line 47
+2025-04-12 16:33:14.138 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FinanceTrackerAPI.DTO.IncomeDTO, FinanceTrackerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-12 16:33:14.164 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI) in 121.354ms
+2025-04-12 16:33:14.166 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 16:33:14.167 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/api/Income/getall - 200 null application/json; charset=utf-8 150.9128ms
+2025-04-12 16:33:26.084 -04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5146/api/Income/add - application/json 50
+2025-04-12 16:33:26.086 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.Create (FinanceTrackerAPI)'
+2025-04-12 16:33:26.090 -04:00 [INF] Route matched with {action = "Create", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[FinanceTrackerAPI.DTO.IncomeDTO]] Create(FinanceTrackerAPI.DTO.IncomeDTO) on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 16:33:26.111 -04:00 [INF] Adding Income to the Database
+2025-04-12 16:33:26.112 -04:00 [ERR] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at FinanceTrackerAPI.Data.Repositories.IncomeRepository.AddAsync(Income income) in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Data/Repositories/IncomeRepository.cs:line 18
+2025-04-12 16:33:26.113 -04:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2025-04-12 16:33:26.114 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.Create (FinanceTrackerAPI) in 23.1115ms
+2025-04-12 16:33:26.114 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.Create (FinanceTrackerAPI)'
+2025-04-12 16:33:26.114 -04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5146/api/Income/add - 200 0 null 30.1485ms
+2025-04-12 16:33:55.573 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/api/Income/getall - application/json 50
+2025-04-12 16:33:55.576 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 16:33:55.576 -04:00 [INF] Route matched with {action = "GetAll", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FinanceTrackerAPI.DTO.IncomeDTO]]] GetAll() on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 16:33:55.578 -04:00 [INF] Getting All the Data
+2025-04-12 16:33:55.578 -04:00 [ERR] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at FinanceTrackerAPI.Data.Repositories.IncomeRepository.GetAllAsync() in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Data/Repositories/IncomeRepository.cs:line 47
+2025-04-12 16:33:55.579 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FinanceTrackerAPI.DTO.IncomeDTO, FinanceTrackerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-12 16:33:55.579 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI) in 2.45ms
+2025-04-12 16:33:55.579 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 16:33:55.579 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/api/Income/getall - 200 null application/json; charset=utf-8 6.0602ms
+2025-04-12 16:35:30.863 -04:00 [INF] Starting the application
+2025-04-12 16:35:30.963 -04:00 [INF] Now listening on: http://localhost:5146
+2025-04-12 16:35:30.966 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-12 16:35:30.966 -04:00 [INF] Hosting environment: Development
+2025-04-12 16:35:30.966 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-12 16:35:39.103 -04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5146/api/Income/add - application/json 50
+2025-04-12 16:35:39.118 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.Create (FinanceTrackerAPI)'
+2025-04-12 16:35:39.129 -04:00 [INF] Route matched with {action = "Create", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[FinanceTrackerAPI.DTO.IncomeDTO]] Create(FinanceTrackerAPI.DTO.IncomeDTO) on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 16:35:39.257 -04:00 [INF] Adding Income to the Database
+2025-04-12 16:35:39.257 -04:00 [ERR] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at FinanceTrackerAPI.Data.Repositories.IncomeRepository.AddAsync(Income income) in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Data/Repositories/IncomeRepository.cs:line 18
+2025-04-12 16:35:39.262 -04:00 [INF] Received income: {"id":1,"source":"Work","amount":120000,"datetime":"0001-01-01T00:00:00.0000000","$type":"IncomeDTO"}
+2025-04-12 16:35:39.267 -04:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2025-04-12 16:35:39.268 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.Create (FinanceTrackerAPI) in 137.6576ms
+2025-04-12 16:35:39.269 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.Create (FinanceTrackerAPI)'
+2025-04-12 16:35:39.271 -04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5146/api/Income/add - 204 null null 168.4123ms
+2025-04-12 16:36:15.584 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/api/Income/getall - application/json 50
+2025-04-12 16:36:15.588 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 16:36:15.590 -04:00 [INF] Route matched with {action = "GetAll", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FinanceTrackerAPI.DTO.IncomeDTO]]] GetAll() on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 16:36:15.593 -04:00 [INF] Getting All the Data
+2025-04-12 16:36:15.593 -04:00 [ERR] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at FinanceTrackerAPI.Data.Repositories.IncomeRepository.GetAllAsync() in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Data/Repositories/IncomeRepository.cs:line 47
+2025-04-12 16:36:15.596 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FinanceTrackerAPI.DTO.IncomeDTO, FinanceTrackerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-12 16:36:15.604 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI) in 13.844ms
+2025-04-12 16:36:15.604 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 16:36:15.604 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/api/Income/getall - 200 null application/json; charset=utf-8 20.9149ms
+2025-04-12 16:36:16.569 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/api/Income/getall - application/json 50
+2025-04-12 16:36:16.570 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 16:36:16.570 -04:00 [INF] Route matched with {action = "GetAll", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FinanceTrackerAPI.DTO.IncomeDTO]]] GetAll() on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 16:36:16.572 -04:00 [INF] Getting All the Data
+2025-04-12 16:36:16.573 -04:00 [ERR] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at FinanceTrackerAPI.Data.Repositories.IncomeRepository.GetAllAsync() in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Data/Repositories/IncomeRepository.cs:line 47
+2025-04-12 16:36:16.573 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FinanceTrackerAPI.DTO.IncomeDTO, FinanceTrackerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-12 16:36:16.574 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI) in 3.1355ms
+2025-04-12 16:36:16.574 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 16:36:16.574 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/api/Income/getall - 200 null application/json; charset=utf-8 5.1477ms
+2025-04-12 16:36:16.757 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/api/Income/getall - application/json 50
+2025-04-12 16:36:16.757 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 16:36:16.762 -04:00 [INF] Route matched with {action = "GetAll", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FinanceTrackerAPI.DTO.IncomeDTO]]] GetAll() on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 16:36:16.763 -04:00 [INF] Getting All the Data
+2025-04-12 16:36:16.763 -04:00 [ERR] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at FinanceTrackerAPI.Data.Repositories.IncomeRepository.GetAllAsync() in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Data/Repositories/IncomeRepository.cs:line 47
+2025-04-12 16:36:16.764 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FinanceTrackerAPI.DTO.IncomeDTO, FinanceTrackerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-12 16:36:16.764 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI) in 1.1632ms
+2025-04-12 16:36:16.764 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 16:36:16.764 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/api/Income/getall - 200 null application/json; charset=utf-8 6.795ms
+2025-04-12 16:37:42.110 -04:00 [INF] Starting the application
+2025-04-12 16:37:42.202 -04:00 [INF] Now listening on: http://localhost:5146
+2025-04-12 16:37:42.204 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-12 16:37:42.204 -04:00 [INF] Hosting environment: Development
+2025-04-12 16:37:42.205 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-12 16:38:36.050 -04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5146/api/Income/add - application/json 50
+2025-04-12 16:38:36.065 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.Create (FinanceTrackerAPI)'
+2025-04-12 16:38:36.077 -04:00 [INF] Route matched with {action = "Create", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[FinanceTrackerAPI.DTO.IncomeDTO]] Create(FinanceTrackerAPI.DTO.IncomeDTO) on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 16:38:36.205 -04:00 [INF] Adding Income to the Database
+2025-04-12 16:38:36.205 -04:00 [ERR] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at FinanceTrackerAPI.Data.Repositories.IncomeRepository.AddAsync(Income income) in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Data/Repositories/IncomeRepository.cs:line 18
+2025-04-12 16:38:36.212 -04:00 [INF] Received income: {"id":1,"source":"Work","amount":120000,"datetime":"0001-01-01T00:00:00.0000000","$type":"IncomeDTO"}
+2025-04-12 16:38:36.216 -04:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2025-04-12 16:38:36.217 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.Create (FinanceTrackerAPI) in 139.1325ms
+2025-04-12 16:38:36.218 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.Create (FinanceTrackerAPI)'
+2025-04-12 16:38:36.220 -04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5146/api/Income/add - 204 null null 170.2036ms
+2025-04-12 16:38:38.775 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/api/Income/getall - application/json 0
+2025-04-12 16:38:38.778 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 16:38:38.781 -04:00 [INF] Route matched with {action = "GetAll", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FinanceTrackerAPI.DTO.IncomeDTO]]] GetAll() on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 16:38:38.784 -04:00 [INF] Getting All the Data
+2025-04-12 16:38:38.784 -04:00 [ERR] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at FinanceTrackerAPI.Data.Repositories.IncomeRepository.GetAllAsync() in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Data/Repositories/IncomeRepository.cs:line 47
+2025-04-12 16:38:38.787 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FinanceTrackerAPI.DTO.IncomeDTO, FinanceTrackerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-12 16:38:38.793 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI) in 12.7051ms
+2025-04-12 16:38:38.794 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 16:38:38.794 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/api/Income/getall - 200 null application/json; charset=utf-8 19.3374ms
+2025-04-12 16:38:39.598 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/api/Income/getall - application/json 0
+2025-04-12 16:38:39.601 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 16:38:39.602 -04:00 [INF] Route matched with {action = "GetAll", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FinanceTrackerAPI.DTO.IncomeDTO]]] GetAll() on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 16:38:39.603 -04:00 [INF] Getting All the Data
+2025-04-12 16:38:39.603 -04:00 [ERR] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at FinanceTrackerAPI.Data.Repositories.IncomeRepository.GetAllAsync() in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Data/Repositories/IncomeRepository.cs:line 47
+2025-04-12 16:38:39.604 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FinanceTrackerAPI.DTO.IncomeDTO, FinanceTrackerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-12 16:38:39.604 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI) in 2.6508ms
+2025-04-12 16:38:39.604 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 16:38:39.604 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/api/Income/getall - 200 null application/json; charset=utf-8 6.353ms
+2025-04-12 16:40:02.389 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/api/Income/getall - application/json 0
+2025-04-12 16:40:02.390 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 16:40:02.391 -04:00 [INF] Route matched with {action = "GetAll", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FinanceTrackerAPI.DTO.IncomeDTO]]] GetAll() on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 16:40:02.392 -04:00 [INF] Getting All the Data
+2025-04-12 16:40:02.392 -04:00 [ERR] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at FinanceTrackerAPI.Data.Repositories.IncomeRepository.GetAllAsync() in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Data/Repositories/IncomeRepository.cs:line 47
+2025-04-12 16:40:02.393 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FinanceTrackerAPI.DTO.IncomeDTO, FinanceTrackerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-12 16:40:02.393 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI) in 2.5299ms
+2025-04-12 16:40:02.393 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 16:40:02.394 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/api/Income/getall - 200 null application/json; charset=utf-8 4.6977ms
+2025-04-12 16:40:22.010 -04:00 [INF] Starting the application
+2025-04-12 16:40:22.181 -04:00 [INF] Now listening on: http://localhost:5146
+2025-04-12 16:40:22.184 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-12 16:40:22.184 -04:00 [INF] Hosting environment: Development
+2025-04-12 16:40:22.184 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-12 16:40:26.869 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/api/Income/getall - application/json 0
+2025-04-12 16:40:26.887 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 16:40:26.898 -04:00 [INF] Route matched with {action = "GetAll", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FinanceTrackerAPI.DTO.IncomeDTO]]] GetAll() on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 16:40:27.011 -04:00 [INF] Getting All the Data
+2025-04-12 16:40:27.056 -04:00 [ERR] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at FinanceTrackerAPI.Data.Repositories.IncomeRepository.GetAllAsync() in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Data/Repositories/IncomeRepository.cs:line 47
+2025-04-12 17:44:29.140 -04:00 [INF] Starting the application
+2025-04-12 17:44:29.238 -04:00 [INF] Now listening on: http://localhost:5146
+2025-04-12 17:44:29.240 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-12 17:44:29.240 -04:00 [INF] Hosting environment: Development
+2025-04-12 17:44:29.240 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-12 17:44:35.609 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/swagger/index.html - null null
+2025-04-12 17:44:35.663 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/swagger/index.html - 200 null text/html;charset=utf-8 54.8806ms
+2025-04-12 17:44:35.759 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/swagger/v1/swagger.json - null null
+2025-04-12 17:44:35.801 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 42.738ms
+2025-04-12 17:44:39.755 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/api/Income/getall - null null
+2025-04-12 17:44:39.759 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 17:44:39.769 -04:00 [INF] Route matched with {action = "GetAll", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FinanceTrackerAPI.DTO.IncomeDTO]]] GetAll() on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 17:44:39.867 -04:00 [INF] Getting All the Data
+2025-04-12 17:44:39.868 -04:00 [ERR] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at FinanceTrackerAPI.Data.Repositories.IncomeRepository.GetAllAsync() in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Data/Repositories/IncomeRepository.cs:line 47
+2025-04-12 17:44:39.878 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FinanceTrackerAPI.DTO.IncomeDTO, FinanceTrackerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-12 17:44:39.894 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI) in 123.926ms
+2025-04-12 17:44:39.894 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 17:44:39.895 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/api/Income/getall - 200 null application/json; charset=utf-8 139.1757ms
+2025-04-12 17:44:42.094 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/api/Income/getall - null null
+2025-04-12 17:44:42.098 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 17:44:42.099 -04:00 [INF] Route matched with {action = "GetAll", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FinanceTrackerAPI.DTO.IncomeDTO]]] GetAll() on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 17:44:42.102 -04:00 [INF] Getting All the Data
+2025-04-12 17:44:42.102 -04:00 [ERR] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at FinanceTrackerAPI.Data.Repositories.IncomeRepository.GetAllAsync() in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Data/Repositories/IncomeRepository.cs:line 47
+2025-04-12 17:44:42.103 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FinanceTrackerAPI.DTO.IncomeDTO, FinanceTrackerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-12 17:44:42.103 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI) in 4.1539ms
+2025-04-12 17:44:42.103 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 17:44:42.103 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/api/Income/getall - 200 null application/json; charset=utf-8 9.2434ms
+2025-04-12 17:46:06.524 -04:00 [INF] Starting the application
+2025-04-12 17:46:06.685 -04:00 [INF] Now listening on: http://localhost:5146
+2025-04-12 17:46:06.688 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-12 17:46:06.688 -04:00 [INF] Hosting environment: Development
+2025-04-12 17:46:06.688 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-12 17:46:09.992 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/swagger/index.html - null null
+2025-04-12 17:46:10.050 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/swagger/index.html - 200 null text/html;charset=utf-8 59.2551ms
+2025-04-12 17:46:10.101 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/swagger/v1/swagger.json - null null
+2025-04-12 17:46:10.144 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 43.8996ms
+2025-04-12 17:46:13.497 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/api/Income/getall - null null
+2025-04-12 17:46:13.504 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 17:46:13.515 -04:00 [INF] Route matched with {action = "GetAll", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FinanceTrackerAPI.DTO.IncomeDTO]]] GetAll() on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 17:46:20.955 -04:00 [INF] Getting All the Data
+2025-04-12 17:48:01.616 -04:00 [INF] Starting the application
+2025-04-12 17:48:01.714 -04:00 [INF] Now listening on: http://localhost:5146
+2025-04-12 17:48:01.717 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-12 17:48:01.717 -04:00 [INF] Hosting environment: Development
+2025-04-12 17:48:01.717 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-12 17:48:05.780 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/swagger/index.html - null null
+2025-04-12 17:48:05.832 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/swagger/index.html - 200 null text/html;charset=utf-8 52.6495ms
+2025-04-12 17:48:05.867 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/swagger/v1/swagger.json - null null
+2025-04-12 17:48:05.909 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 42.18ms
+2025-04-12 17:48:08.981 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/api/Income/getall - null null
+2025-04-12 17:48:08.987 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 17:48:08.997 -04:00 [INF] Route matched with {action = "GetAll", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FinanceTrackerAPI.DTO.IncomeDTO]]] GetAll() on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 17:48:09.094 -04:00 [INF] Getting All the Data
+2025-04-12 17:48:09.094 -04:00 [ERR] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at FinanceTrackerAPI.Data.Repositories.IncomeRepository.GetAllAsync() in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Data/Repositories/IncomeRepository.cs:line 47
+2025-04-12 17:48:09.104 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FinanceTrackerAPI.DTO.IncomeDTO, FinanceTrackerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-12 17:48:09.120 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI) in 122.2436ms
+2025-04-12 17:48:09.121 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 17:48:09.121 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/api/Income/getall - 200 null application/json; charset=utf-8 139.7163ms
+2025-04-12 17:48:23.914 -04:00 [INF] Starting the application
+2025-04-12 17:48:24.081 -04:00 [INF] Now listening on: http://localhost:5146
+2025-04-12 17:48:24.083 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-12 17:48:24.083 -04:00 [INF] Hosting environment: Development
+2025-04-12 17:48:24.083 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-12 17:48:29.358 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/api/Income/getall - null null
+2025-04-12 17:48:29.376 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 17:48:29.386 -04:00 [INF] Route matched with {action = "GetAll", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FinanceTrackerAPI.DTO.IncomeDTO]]] GetAll() on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 17:48:34.631 -04:00 [INF] Getting All the Data
+2025-04-12 17:50:19.330 -04:00 [INF] Starting the application
+2025-04-12 17:50:19.485 -04:00 [INF] Now listening on: http://localhost:5146
+2025-04-12 17:50:19.488 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-12 17:50:19.488 -04:00 [INF] Hosting environment: Development
+2025-04-12 17:50:19.488 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-12 17:51:17.942 -04:00 [INF] Starting the application
+2025-04-12 17:51:18.129 -04:00 [INF] Now listening on: http://localhost:5146
+2025-04-12 17:51:18.132 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-12 17:51:18.132 -04:00 [INF] Hosting environment: Development
+2025-04-12 17:51:18.132 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-12 17:51:46.978 -04:00 [INF] Starting the application
+2025-04-12 17:51:47.280 -04:00 [INF] Now listening on: https://localhost:5146
+2025-04-12 17:51:47.281 -04:00 [INF] Now listening on: http://localhost:5145
+2025-04-12 17:51:47.283 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-12 17:51:47.283 -04:00 [INF] Hosting environment: Development
+2025-04-12 17:51:47.283 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-12 17:52:11.903 -04:00 [INF] Request starting HTTP/2 GET https://localhost:5146/swagger - null null
+2025-04-12 17:52:11.919 -04:00 [INF] Request finished HTTP/2 GET https://localhost:5146/swagger - 301 0 null 17.5794ms
+2025-04-12 17:52:11.928 -04:00 [INF] Request starting HTTP/2 GET https://localhost:5146/swagger/index.html - null null
+2025-04-12 17:52:11.975 -04:00 [INF] Request finished HTTP/2 GET https://localhost:5146/swagger/index.html - 200 null text/html;charset=utf-8 46.3387ms
+2025-04-12 17:52:11.984 -04:00 [INF] Request starting HTTP/2 GET https://localhost:5146/swagger/swagger-ui.css - null null
+2025-04-12 17:52:12.005 -04:00 [INF] Request starting HTTP/2 GET https://localhost:5146/swagger/swagger-ui-bundle.js - null null
+2025-04-12 17:52:12.055 -04:00 [INF] Request starting HTTP/2 GET https://localhost:5146/swagger/swagger-ui-standalone-preset.js - null null
+2025-04-12 17:52:12.342 -04:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-04-12 17:52:12.342 -04:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-04-12 17:52:12.367 -04:00 [INF] Request finished HTTP/2 GET https://localhost:5146/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 337.6352ms
+2025-04-12 17:52:12.368 -04:00 [INF] Request finished HTTP/2 GET https://localhost:5146/swagger/swagger-ui.css - 200 152034 text/css 383.5765ms
+2025-04-12 17:52:12.376 -04:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-04-12 17:52:12.376 -04:00 [INF] Request finished HTTP/2 GET https://localhost:5146/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 370.6412ms
+2025-04-12 17:52:12.471 -04:00 [INF] Request starting HTTP/2 GET https://localhost:5146/swagger/v1/swagger.json - null null
+2025-04-12 17:52:12.495 -04:00 [INF] Request starting HTTP/2 GET https://localhost:5146/swagger/favicon-32x32.png - null null
+2025-04-12 17:52:12.496 -04:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-04-12 17:52:12.496 -04:00 [INF] Request finished HTTP/2 GET https://localhost:5146/swagger/favicon-32x32.png - 200 628 image/png 0.6787ms
+2025-04-12 17:52:12.598 -04:00 [INF] Request finished HTTP/2 GET https://localhost:5146/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 126.7213ms
+2025-04-12 17:52:16.180 -04:00 [INF] Request starting HTTP/2 GET https://localhost:5146/api/Income/getall - null null
+2025-04-12 17:52:16.212 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 17:52:16.223 -04:00 [INF] Route matched with {action = "GetAll", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FinanceTrackerAPI.DTO.IncomeDTO]]] GetAll() on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 17:52:21.171 -04:00 [INF] Getting All the Data
+2025-04-12 17:54:54.013 -04:00 [INF] Starting the application
+2025-04-12 17:54:54.334 -04:00 [INF] Now listening on: https://localhost:5146
+2025-04-12 17:54:54.336 -04:00 [INF] Now listening on: http://localhost:5145
+2025-04-12 17:54:54.337 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-12 17:54:54.337 -04:00 [INF] Hosting environment: Development
+2025-04-12 17:54:54.337 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-12 17:54:56.495 -04:00 [INF] Request starting HTTP/2 GET https://localhost:5146/swagger/index.html - null null
+2025-04-12 17:54:56.559 -04:00 [INF] Request finished HTTP/2 GET https://localhost:5146/swagger/index.html - 200 null text/html;charset=utf-8 64.926ms
+2025-04-12 17:54:56.607 -04:00 [INF] Request starting HTTP/2 GET https://localhost:5146/swagger/v1/swagger.json - null null
+2025-04-12 17:54:56.656 -04:00 [INF] Request finished HTTP/2 GET https://localhost:5146/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 49.3636ms
+2025-04-12 17:54:59.936 -04:00 [INF] Request starting HTTP/2 GET https://localhost:5146/api/Income/getall - null null
+2025-04-12 17:54:59.988 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 17:55:00.000 -04:00 [INF] Route matched with {action = "GetAll", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FinanceTrackerAPI.DTO.IncomeDTO]]] GetAll() on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 17:55:03.308 -04:00 [INF] Getting All the Data
+2025-04-12 17:55:03.322 -04:00 [ERR] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at FinanceTrackerAPI.Data.Repositories.IncomeRepository.GetAllAsync() in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Data/Repositories/IncomeRepository.cs:line 47
+2025-04-12 17:55:08.045 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FinanceTrackerAPI.DTO.IncomeDTO, FinanceTrackerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-12 17:55:08.063 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI) in 8061.6207ms
+2025-04-12 17:55:08.063 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 17:55:08.063 -04:00 [INF] Request finished HTTP/2 GET https://localhost:5146/api/Income/getall - 200 null application/json; charset=utf-8 8127.8843ms
+2025-04-12 17:57:00.281 -04:00 [INF] Starting the application
+2025-04-12 17:57:00.575 -04:00 [INF] Now listening on: https://localhost:5146
+2025-04-12 17:57:00.577 -04:00 [INF] Now listening on: http://localhost:5145
+2025-04-12 17:57:00.578 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-12 17:57:00.578 -04:00 [INF] Hosting environment: Development
+2025-04-12 17:57:00.578 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-12 17:57:33.046 -04:00 [INF] Request starting HTTP/2 GET https://localhost:5146/api/Income/getall - null null
+2025-04-12 17:57:33.063 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 17:57:33.073 -04:00 [INF] Route matched with {action = "GetAll", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FinanceTrackerAPI.DTO.IncomeDTO]]] GetAll() on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 17:57:35.937 -04:00 [INF] Getting All the Data
+2025-04-12 17:57:35.950 -04:00 [ERR] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at FinanceTrackerAPI.Data.Repositories.IncomeRepository.GetAllAsync() in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Data/Repositories/IncomeRepository.cs:line 47
+2025-04-12 17:59:08.072 -04:00 [INF] Starting the application
+2025-04-12 17:59:08.265 -04:00 [INF] Now listening on: http://localhost:5145
+2025-04-12 17:59:08.268 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-12 17:59:08.269 -04:00 [INF] Hosting environment: Development
+2025-04-12 17:59:08.269 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-12 17:59:20.321 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/swagger/index.html - null null
+2025-04-12 17:59:20.387 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/swagger/index.html - 200 null text/html;charset=utf-8 65.8171ms
+2025-04-12 17:59:20.424 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/swagger/swagger-ui-bundle.js - null null
+2025-04-12 17:59:20.424 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/swagger/swagger-ui-standalone-preset.js - null null
+2025-04-12 17:59:20.424 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/swagger/swagger-ui.css - null null
+2025-04-12 17:59:20.795 -04:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-04-12 17:59:20.795 -04:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-04-12 17:59:20.795 -04:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-04-12 17:59:20.796 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/swagger/swagger-ui.css - 200 152034 text/css 371.8856ms
+2025-04-12 17:59:20.796 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 371.9062ms
+2025-04-12 17:59:20.796 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 372.1834ms
+2025-04-12 17:59:20.868 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/swagger/v1/swagger.json - null null
+2025-04-12 17:59:20.878 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/swagger/favicon-32x32.png - null null
+2025-04-12 17:59:20.878 -04:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-04-12 17:59:20.878 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/swagger/favicon-32x32.png - 200 628 image/png 0.5726ms
+2025-04-12 17:59:20.917 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 48.4498ms
+2025-04-12 17:59:24.260 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/api/Income/getall - null null
+2025-04-12 17:59:24.267 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 17:59:24.278 -04:00 [INF] Route matched with {action = "GetAll", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FinanceTrackerAPI.DTO.IncomeDTO]]] GetAll() on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 17:59:26.580 -04:00 [INF] Getting All the Data
+2025-04-12 17:59:26.594 -04:00 [ERR] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at FinanceTrackerAPI.Data.Repositories.IncomeRepository.GetAllAsync() in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Data/Repositories/IncomeRepository.cs:line 47
+2025-04-12 17:59:56.500 -04:00 [ERR] Value cannot be null. (Parameter 'source')
+System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   at FinanceTrackerAPI.Controllers.IncomeController.GetAll() in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Controllers/IncomeController.cs:line 27
+2025-04-12 17:59:56.517 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI) in 32236.6024ms
+2025-04-12 17:59:56.518 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 17:59:56.519 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at FinanceTrackerAPI.Controllers.IncomeController.GetAll() in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Controllers/IncomeController.cs:line 31
+   at lambda_method6(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-04-12 17:59:56.529 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/api/Income/getall - 500 null text/plain; charset=utf-8 32268.7531ms
+2025-04-12 18:01:46.619 -04:00 [INF] Starting the application
+2025-04-12 18:01:46.715 -04:00 [INF] Now listening on: http://localhost:5145
+2025-04-12 18:01:46.717 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-12 18:01:46.717 -04:00 [INF] Hosting environment: Development
+2025-04-12 18:01:46.718 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-12 18:01:55.438 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/swagger/index.html - null null
+2025-04-12 18:01:55.487 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/swagger/index.html - 200 null text/html;charset=utf-8 49.759ms
+2025-04-12 18:01:55.534 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/swagger/v1/swagger.json - null null
+2025-04-12 18:01:55.576 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 41.5371ms
+2025-04-12 18:01:58.816 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/api/Income/getall - null null
+2025-04-12 18:01:58.824 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 18:01:58.833 -04:00 [INF] Route matched with {action = "GetAll", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FinanceTrackerAPI.DTO.IncomeDTO]]] GetAll() on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 18:01:58.929 -04:00 [INF] Getting All the Data
+2025-04-12 18:01:58.929 -04:00 [ERR] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at FinanceTrackerAPI.Data.Repositories.IncomeRepository.GetAllAsync() in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Data/Repositories/IncomeRepository.cs:line 47
+2025-04-12 18:01:58.934 -04:00 [ERR] Value cannot be null. (Parameter 'source')
+System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   at FinanceTrackerAPI.Controllers.IncomeController.GetAll() in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Controllers/IncomeController.cs:line 27
+2025-04-12 18:01:58.936 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI) in 101.0712ms
+2025-04-12 18:01:58.936 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 18:01:58.937 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at FinanceTrackerAPI.Controllers.IncomeController.GetAll() in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Controllers/IncomeController.cs:line 31
+   at lambda_method6(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-04-12 18:01:58.941 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/api/Income/getall - 500 null text/plain; charset=utf-8 125.082ms
+2025-04-12 18:02:50.657 -04:00 [INF] Starting the application
+2025-04-12 18:02:50.758 -04:00 [INF] Now listening on: http://localhost:5145
+2025-04-12 18:02:50.760 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-12 18:02:50.761 -04:00 [INF] Hosting environment: Development
+2025-04-12 18:02:50.761 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-12 18:02:53.893 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/ - null null
+2025-04-12 18:02:53.912 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/ - 404 0 null 19.4342ms
+2025-04-12 18:02:53.917 -04:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5145/, Response status code: 404
+2025-04-12 18:02:57.214 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/swagger/index.html - null null
+2025-04-12 18:02:57.269 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/swagger/index.html - 200 null text/html;charset=utf-8 54.9236ms
+2025-04-12 18:02:57.316 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/swagger/v1/swagger.json - null null
+2025-04-12 18:02:57.360 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 43.7872ms
+2025-04-12 18:03:00.529 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/api/Income/getall - null null
+2025-04-12 18:03:00.532 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 18:03:00.542 -04:00 [INF] Route matched with {action = "GetAll", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FinanceTrackerAPI.DTO.IncomeDTO]]] GetAll() on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 18:03:00.643 -04:00 [INF] Getting All the Data
+2025-04-12 18:03:00.643 -04:00 [ERR] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at FinanceTrackerAPI.Data.Repositories.IncomeRepository.GetAllAsync() in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Data/Repositories/IncomeRepository.cs:line 47
+2025-04-12 18:03:00.649 -04:00 [ERR] Value cannot be null. (Parameter 'source')
+System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   at FinanceTrackerAPI.Controllers.IncomeController.GetAll() in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Controllers/IncomeController.cs:line 27
+2025-04-12 18:03:00.652 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI) in 108.3291ms
+2025-04-12 18:03:00.652 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 18:03:00.653 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at FinanceTrackerAPI.Controllers.IncomeController.GetAll() in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Controllers/IncomeController.cs:line 31
+   at lambda_method6(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-04-12 18:03:00.657 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/api/Income/getall - 500 null text/plain; charset=utf-8 127.3307ms
+2025-04-12 18:04:14.839 -04:00 [INF] Starting the application
+2025-04-12 18:04:15.015 -04:00 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5145: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-04-12 18:04:15.036 -04:00 [FTL] Application Startup Failed
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5145: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Program.<Main>$(String[] args) in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Program.cs:line 55
+2025-04-12 18:04:53.183 -04:00 [INF] Starting the application
+2025-04-12 18:04:53.383 -04:00 [INF] Now listening on: http://localhost:5145
+2025-04-12 18:04:53.387 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-12 18:04:53.387 -04:00 [INF] Hosting environment: Development
+2025-04-12 18:04:53.387 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-12 18:04:55.190 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/ - null null
+2025-04-12 18:04:55.207 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/ - 404 0 null 17.3424ms
+2025-04-12 18:04:55.211 -04:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5145/, Response status code: 404
+2025-04-12 18:04:58.642 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/swagger/index.html - null null
+2025-04-12 18:04:58.691 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/swagger/index.html - 200 null text/html;charset=utf-8 50.0923ms
+2025-04-12 18:04:58.738 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/swagger/v1/swagger.json - null null
+2025-04-12 18:04:58.785 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 47.4827ms
+2025-04-12 18:05:01.856 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/api/Income/getall - null null
+2025-04-12 18:05:01.858 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 18:05:01.869 -04:00 [INF] Route matched with {action = "GetAll", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FinanceTrackerAPI.DTO.IncomeDTO]]] GetAll() on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 18:05:05.171 -04:00 [INF] Getting All the Data
+2025-04-12 18:05:05.225 -04:00 [ERR] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at FinanceTrackerAPI.Data.Repositories.IncomeRepository.GetAllAsync() in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Data/Repositories/IncomeRepository.cs:line 47
+2025-04-12 18:05:14.172 -04:00 [ERR] Value cannot be null. (Parameter 'source')
+System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   at FinanceTrackerAPI.Controllers.IncomeController.GetAll() in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Controllers/IncomeController.cs:line 27
+2025-04-12 18:05:17.009 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI) in 15141.6652ms
+2025-04-12 18:05:17.011 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 18:05:17.015 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at FinanceTrackerAPI.Controllers.IncomeController.GetAll() in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Controllers/IncomeController.cs:line 31
+   at lambda_method6(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-04-12 18:05:17.018 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/api/Income/getall - 500 null text/plain; charset=utf-8 15166.7005ms
+2025-04-12 18:07:47.168 -04:00 [INF] Starting the application
+2025-04-12 18:07:47.282 -04:00 [INF] Now listening on: http://localhost:5145
+2025-04-12 18:07:47.285 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-12 18:07:47.285 -04:00 [INF] Hosting environment: Development
+2025-04-12 18:07:47.285 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-12 18:07:48.254 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/ - null null
+2025-04-12 18:07:48.273 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/ - 404 0 null 20.1829ms
+2025-04-12 18:07:48.277 -04:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5145/, Response status code: 404
+2025-04-12 18:07:51.650 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/swagger/index.html - null null
+2025-04-12 18:07:51.696 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/swagger/index.html - 200 null text/html;charset=utf-8 45.8067ms
+2025-04-12 18:07:51.746 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/swagger/v1/swagger.json - null null
+2025-04-12 18:07:51.790 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 43.9914ms
+2025-04-12 18:07:54.792 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/api/Income/getall - null null
+2025-04-12 18:07:54.797 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 18:07:54.807 -04:00 [INF] Route matched with {action = "GetAll", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FinanceTrackerAPI.DTO.IncomeDTO]]] GetAll() on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 18:07:54.890 -04:00 [INF] Getting All the Data
+2025-04-12 18:07:54.890 -04:00 [ERR] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at FinanceTrackerAPI.Data.Repositories.IncomeRepository.GetAllAsync() in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Data/Repositories/IncomeRepository.cs:line 47
+2025-04-12 18:07:54.894 -04:00 [ERR] Value cannot be null. (Parameter 'source')
+System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   at FinanceTrackerAPI.Controllers.IncomeController.GetAll() in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Controllers/IncomeController.cs:line 27
+2025-04-12 18:07:54.897 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI) in 88.3847ms
+2025-04-12 18:07:54.897 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 18:07:54.898 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at FinanceTrackerAPI.Controllers.IncomeController.GetAll() in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Controllers/IncomeController.cs:line 31
+   at lambda_method6(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-04-12 18:07:54.902 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/api/Income/getall - 500 null text/plain; charset=utf-8 109.9929ms
+2025-04-12 18:08:25.672 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/api/Income/getall - application/json 0
+2025-04-12 18:08:25.673 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 18:08:25.673 -04:00 [INF] Route matched with {action = "GetAll", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FinanceTrackerAPI.DTO.IncomeDTO]]] GetAll() on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 18:08:25.677 -04:00 [INF] Getting All the Data
+2025-04-12 18:08:25.677 -04:00 [ERR] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at FinanceTrackerAPI.Data.Repositories.IncomeRepository.GetAllAsync() in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Data/Repositories/IncomeRepository.cs:line 47
+2025-04-12 18:08:25.677 -04:00 [ERR] Value cannot be null. (Parameter 'source')
+System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   at FinanceTrackerAPI.Controllers.IncomeController.GetAll() in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Controllers/IncomeController.cs:line 27
+2025-04-12 18:08:25.678 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI) in 4.3805ms
+2025-04-12 18:08:25.678 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 18:08:25.678 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at FinanceTrackerAPI.Controllers.IncomeController.GetAll() in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Controllers/IncomeController.cs:line 31
+   at lambda_method6(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-04-12 18:08:25.679 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/api/Income/getall - 500 null text/plain; charset=utf-8 7.12ms
+2025-04-12 18:10:47.673 -04:00 [INF] Starting the application
+2025-04-12 18:10:47.790 -04:00 [INF] Now listening on: http://localhost:5145
+2025-04-12 18:10:47.792 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-12 18:10:47.793 -04:00 [INF] Hosting environment: Development
+2025-04-12 18:10:47.793 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-12 18:10:51.543 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/swagger/index.html - null null
+2025-04-12 18:10:51.601 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/swagger/index.html - 200 null text/html;charset=utf-8 57.9953ms
+2025-04-12 18:10:51.635 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/swagger/v1/swagger.json - null null
+2025-04-12 18:10:51.677 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 42.6903ms
+2025-04-12 18:10:55.183 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/api/Income/getall - null null
+2025-04-12 18:10:55.189 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 18:10:55.200 -04:00 [INF] Route matched with {action = "GetAll", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FinanceTrackerAPI.DTO.IncomeDTO]]] GetAll() on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 18:10:55.286 -04:00 [INF] Getting All the Data
+2025-04-12 18:10:55.286 -04:00 [ERR] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at FinanceTrackerAPI.Data.Repositories.IncomeRepository.GetAllAsync() in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Data/Repositories/IncomeRepository.cs:line 47
+2025-04-12 18:10:55.291 -04:00 [ERR] Value cannot be null. (Parameter 'source')
+System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at FinanceTrackerAPI.Controllers.IncomeController.GetAll() in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Controllers/IncomeController.cs:line 27
+2025-04-12 18:10:55.293 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI) in 91.9844ms
+2025-04-12 18:10:55.294 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 18:10:55.295 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at FinanceTrackerAPI.Controllers.IncomeController.GetAll() in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Controllers/IncomeController.cs:line 42
+   at lambda_method6(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-04-12 18:10:55.299 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/api/Income/getall - 500 null text/plain; charset=utf-8 115.7927ms
+2025-04-12 18:16:00.861 -04:00 [INF] Starting the application
+2025-04-12 18:16:01.098 -04:00 [INF] Now listening on: http://localhost:5145
+2025-04-12 18:16:01.100 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-12 18:16:01.101 -04:00 [INF] Hosting environment: Development
+2025-04-12 18:16:01.101 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-12 18:16:01.928 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/swagger/index.html - null null
+2025-04-12 18:16:01.997 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/swagger/index.html - 200 null text/html;charset=utf-8 69.9647ms
+2025-04-12 18:16:02.042 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/swagger/v1/swagger.json - null null
+2025-04-12 18:16:02.094 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 51.8959ms
+2025-04-12 18:16:04.058 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/swagger/index.html - null null
+2025-04-12 18:16:04.062 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/swagger/index.html - 200 null text/html;charset=utf-8 4.0982ms
+2025-04-12 18:16:04.087 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/swagger/v1/swagger.json - null null
+2025-04-12 18:16:04.092 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 4.8037ms
+2025-04-12 18:16:10.982 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/api/Income/get(1) - null null
+2025-04-12 18:16:10.987 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.Get (FinanceTrackerAPI)'
+2025-04-12 18:16:11.002 -04:00 [INF] Route matched with {action = "Get", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[FinanceTrackerAPI.DTO.IncomeDTO]] Get(Int32) on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 18:16:11.111 -04:00 [INF] Fetching Data with Id: 1
+2025-04-12 18:16:11.150 -04:00 [ERR] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at FinanceTrackerAPI.Data.Repositories.IncomeRepository.GetByIdAsync(Int32 id) in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Data/Repositories/IncomeRepository.cs:line 60
+2025-04-12 18:16:11.170 -04:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2025-04-12 18:16:11.172 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.Get (FinanceTrackerAPI) in 168.3889ms
+2025-04-12 18:16:11.173 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.Get (FinanceTrackerAPI)'
+2025-04-12 18:16:11.174 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/api/Income/get(1) - 204 null null 192.0671ms
+2025-04-12 18:16:38.633 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/api/Income/get(1) - null null
+2025-04-12 18:16:38.634 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.Get (FinanceTrackerAPI)'
+2025-04-12 18:16:38.634 -04:00 [INF] Route matched with {action = "Get", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[FinanceTrackerAPI.DTO.IncomeDTO]] Get(Int32) on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 18:16:44.791 -04:00 [INF] Fetching Data with Id: 1
+2025-04-12 18:19:49.206 -04:00 [INF] Starting the application
+2025-04-12 18:19:49.375 -04:00 [INF] Now listening on: http://localhost:5145
+2025-04-12 18:19:49.378 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-12 18:19:49.378 -04:00 [INF] Hosting environment: Development
+2025-04-12 18:19:49.378 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-12 18:19:54.719 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/api/Income/get(1) - application/json 0
+2025-04-12 18:19:54.736 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.Get (FinanceTrackerAPI)'
+2025-04-12 18:19:54.749 -04:00 [INF] Route matched with {action = "Get", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[FinanceTrackerAPI.DTO.IncomeDTO]] Get(Int32) on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 18:20:05.549 -04:00 [INF] Fetching Data with Id: 1
+2025-04-12 18:20:05.562 -04:00 [ERR] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at FinanceTrackerAPI.Data.Repositories.IncomeRepository.GetByIdAsync(Int32 id) in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Data/Repositories/IncomeRepository.cs:line 60
+2025-04-12 18:32:13.976 -04:00 [INF] Starting the application
+2025-04-12 18:32:14.089 -04:00 [INF] Now listening on: http://localhost:5145
+2025-04-12 18:32:14.092 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-12 18:32:14.092 -04:00 [INF] Hosting environment: Development
+2025-04-12 18:32:14.092 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-12 18:32:17.331 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/swagger/index.html - null null
+2025-04-12 18:32:17.389 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/swagger/index.html - 200 null text/html;charset=utf-8 58.7029ms
+2025-04-12 18:32:17.423 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/swagger/v1/swagger.json - null null
+2025-04-12 18:32:17.469 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 46.3272ms
+2025-04-12 18:32:20.837 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/api/Income/getall - null null
+2025-04-12 18:32:20.844 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 18:32:20.854 -04:00 [INF] Route matched with {action = "GetAll", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FinanceTrackerAPI.DTO.IncomeDTO]]] GetAll() on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 18:32:20.945 -04:00 [INF] Getting All the Data
+2025-04-12 18:32:21.410 -04:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "i"."id", "i"."amount", "i"."datetime", "i"."source"
+FROM "Incomes" AS "i"
+2025-04-12 18:32:21.435 -04:00 [INF] Download Successful with count of 2
+2025-04-12 18:32:21.438 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FinanceTrackerAPI.DTO.IncomeDTO, FinanceTrackerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-12 18:32:21.458 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI) in 602.9439ms
+2025-04-12 18:32:21.458 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 18:32:21.461 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/api/Income/getall - 200 null application/json; charset=utf-8 624.0103ms
+2025-04-12 18:33:17.746 -04:00 [INF] Starting the application
+2025-04-12 18:33:17.853 -04:00 [INF] Now listening on: http://localhost:5145
+2025-04-12 18:33:17.855 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-12 18:33:17.856 -04:00 [INF] Hosting environment: Development
+2025-04-12 18:33:17.856 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-12 18:33:21.271 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/swagger/index.html - null null
+2025-04-12 18:33:21.327 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/swagger/index.html - 200 null text/html;charset=utf-8 57.3122ms
+2025-04-12 18:33:21.374 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/swagger/v1/swagger.json - null null
+2025-04-12 18:33:21.423 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 49.3577ms
+2025-04-12 18:33:24.849 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/api/Income/getall - null null
+2025-04-12 18:33:24.856 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 18:33:24.868 -04:00 [INF] Route matched with {action = "GetAll", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FinanceTrackerAPI.DTO.IncomeDTO]]] GetAll() on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 18:33:24.947 -04:00 [INF] Getting All the Data
+2025-04-12 18:33:25.230 -04:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "i"."id", "i"."amount", "i"."datetime", "i"."source"
+FROM "Incomes" AS "i"
+2025-04-12 18:33:25.255 -04:00 [INF] Download Successful with count of 2
+2025-04-12 18:33:25.256 -04:00 [INF] Fetched 2 incomes
+2025-04-12 18:33:25.264 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FinanceTrackerAPI.DTO.IncomeDTO, FinanceTrackerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-12 18:33:25.284 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI) in 414.8735ms
+2025-04-12 18:33:25.284 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 18:33:25.287 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/api/Income/getall - 200 null application/json; charset=utf-8 437.8523ms
+2025-04-12 18:33:44.300 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/api/Income/get(2) - null null
+2025-04-12 18:33:44.306 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.Get (FinanceTrackerAPI)'
+2025-04-12 18:33:44.310 -04:00 [INF] Route matched with {action = "Get", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[FinanceTrackerAPI.DTO.IncomeDTO]] Get(Int32) on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 18:33:44.315 -04:00 [INF] Fetching Data with Id: 2
+2025-04-12 18:33:44.373 -04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "i"."id", "i"."amount", "i"."datetime", "i"."source"
+FROM "Incomes" AS "i"
+WHERE "i"."id" = @__p_0
+LIMIT 1
+2025-04-12 18:33:44.374 -04:00 [INF] Fetch Successful
+2025-04-12 18:33:44.375 -04:00 [INF] Executing OkObjectResult, writing value of type 'FinanceTrackerAPI.DTO.IncomeDTO'.
+2025-04-12 18:33:44.376 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.Get (FinanceTrackerAPI) in 65.5418ms
+2025-04-12 18:33:44.376 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.Get (FinanceTrackerAPI)'
+2025-04-12 18:33:44.376 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/api/Income/get(2) - 200 null application/json; charset=utf-8 76.3885ms
+2025-04-12 18:33:46.150 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/api/Income/get(2) - null null
+2025-04-12 18:33:46.151 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.Get (FinanceTrackerAPI)'
+2025-04-12 18:33:46.151 -04:00 [INF] Route matched with {action = "Get", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[FinanceTrackerAPI.DTO.IncomeDTO]] Get(Int32) on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 18:33:46.156 -04:00 [INF] Fetching Data with Id: 2
+2025-04-12 18:33:46.181 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "i"."id", "i"."amount", "i"."datetime", "i"."source"
+FROM "Incomes" AS "i"
+WHERE "i"."id" = @__p_0
+LIMIT 1
+2025-04-12 18:33:46.181 -04:00 [INF] Fetch Successful
+2025-04-12 18:33:46.182 -04:00 [INF] Executing OkObjectResult, writing value of type 'FinanceTrackerAPI.DTO.IncomeDTO'.
+2025-04-12 18:33:46.182 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.Get (FinanceTrackerAPI) in 30.857ms
+2025-04-12 18:33:46.182 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.Get (FinanceTrackerAPI)'
+2025-04-12 18:33:46.182 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/api/Income/get(2) - 200 null application/json; charset=utf-8 31.9256ms
+2025-04-12 18:33:58.097 -04:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5145/api/Income/delete2 - null null
+2025-04-12 18:33:58.101 -04:00 [INF] CORS policy execution successful.
+2025-04-12 18:33:58.102 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.Delete (FinanceTrackerAPI)'
+2025-04-12 18:33:58.104 -04:00 [INF] Route matched with {action = "Delete", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(Int32) on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 18:33:58.105 -04:00 [INF] Deleting Id: 2
+2025-04-12 18:33:58.106 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "i"."id", "i"."amount", "i"."datetime", "i"."source"
+FROM "Incomes" AS "i"
+WHERE "i"."id" = @__p_0
+LIMIT 1
+2025-04-12 18:33:58.144 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Incomes"
+WHERE "id" = @p0
+RETURNING 1;
+2025-04-12 18:33:58.151 -04:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-04-12 18:33:58.151 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.Delete (FinanceTrackerAPI) in 46.7764ms
+2025-04-12 18:33:58.151 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.Delete (FinanceTrackerAPI)'
+2025-04-12 18:33:58.151 -04:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5145/api/Income/delete2 - 204 null null 54.187ms
+2025-04-12 18:34:01.569 -04:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5145/api/Income/delete2 - null null
+2025-04-12 18:34:01.569 -04:00 [INF] CORS policy execution successful.
+2025-04-12 18:34:01.569 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.Delete (FinanceTrackerAPI)'
+2025-04-12 18:34:01.570 -04:00 [INF] Route matched with {action = "Delete", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(Int32) on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 18:34:01.570 -04:00 [INF] Deleting Id: 2
+2025-04-12 18:34:01.571 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "i"."id", "i"."amount", "i"."datetime", "i"."source"
+FROM "Incomes" AS "i"
+WHERE "i"."id" = @__p_0
+LIMIT 1
+2025-04-12 18:34:01.572 -04:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-04-12 18:34:01.581 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.Delete (FinanceTrackerAPI) in 11.3709ms
+2025-04-12 18:34:01.581 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.Delete (FinanceTrackerAPI)'
+2025-04-12 18:34:01.581 -04:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5145/api/Income/delete2 - 404 null application/problem+json; charset=utf-8 12.6885ms
+2025-04-12 18:34:07.655 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/api/Income/getall - null null
+2025-04-12 18:34:07.655 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 18:34:07.656 -04:00 [INF] Route matched with {action = "GetAll", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FinanceTrackerAPI.DTO.IncomeDTO]]] GetAll() on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 18:34:07.656 -04:00 [INF] Getting All the Data
+2025-04-12 18:34:07.658 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "i"."id", "i"."amount", "i"."datetime", "i"."source"
+FROM "Incomes" AS "i"
+2025-04-12 18:34:07.658 -04:00 [INF] Download Successful with count of 1
+2025-04-12 18:34:07.658 -04:00 [INF] Fetched 1 incomes
+2025-04-12 18:34:07.658 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FinanceTrackerAPI.DTO.IncomeDTO, FinanceTrackerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-12 18:34:07.659 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI) in 3.0455ms
+2025-04-12 18:34:07.659 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-12 18:34:07.659 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/api/Income/getall - 200 null application/json; charset=utf-8 3.9634ms
+2025-04-12 18:34:15.028 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/api/Income/get(2) - null null
+2025-04-12 18:34:15.028 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.Get (FinanceTrackerAPI)'
+2025-04-12 18:34:15.029 -04:00 [INF] Route matched with {action = "Get", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[FinanceTrackerAPI.DTO.IncomeDTO]] Get(Int32) on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-12 18:34:15.030 -04:00 [INF] Fetching Data with Id: 2
+2025-04-12 18:34:15.033 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "i"."id", "i"."amount", "i"."datetime", "i"."source"
+FROM "Incomes" AS "i"
+WHERE "i"."id" = @__p_0
+LIMIT 1
+2025-04-12 18:34:15.033 -04:00 [INF] Fetch Successful
+2025-04-12 18:34:15.035 -04:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2025-04-12 18:34:15.035 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.Get (FinanceTrackerAPI) in 5.9787ms
+2025-04-12 18:34:15.035 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.Get (FinanceTrackerAPI)'
+2025-04-12 18:34:15.035 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/api/Income/get(2) - 204 null null 6.7179ms

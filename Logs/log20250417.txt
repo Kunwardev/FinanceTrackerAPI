@@ -1,0 +1,682 @@
+2025-04-17 21:51:44.715 -04:00 [INF] Starting the application
+2025-04-17 21:51:44.811 -04:00 [INF] User profile is available. Using '/Users/kunwarsingh/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-04-17 21:51:44.826 -04:00 [INF] Creating key {67e83c9d-5d5a-4cd6-a7a7-6020dbff6a63} with creation date 2025-04-18 01:51:44Z, activation date 2025-04-18 01:51:44Z, and expiration date 2025-07-17 01:51:44Z.
+2025-04-17 21:51:44.828 -04:00 [WRN] No XML encryptor configured. Key {67e83c9d-5d5a-4cd6-a7a7-6020dbff6a63} may be persisted to storage in unencrypted form.
+2025-04-17 21:51:44.829 -04:00 [INF] Writing data to file '/Users/kunwarsingh/.aspnet/DataProtection-Keys/key-67e83c9d-5d5a-4cd6-a7a7-6020dbff6a63.xml'.
+2025-04-17 21:51:44.850 -04:00 [INF] Now listening on: http://localhost:5145
+2025-04-17 21:51:44.851 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-17 21:51:44.851 -04:00 [INF] Hosting environment: Development
+2025-04-17 21:51:44.851 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-17 21:51:55.711 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/swagger/index.html - null null
+2025-04-17 21:51:55.790 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/swagger/index.html - 200 null text/html;charset=utf-8 79.875ms
+2025-04-17 21:51:55.836 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/swagger/v1/swagger.json - null null
+2025-04-17 21:51:55.882 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 46.2154ms
+2025-04-17 21:52:17.181 -04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5145/api/Auth/register - application/json 47
+2025-04-17 21:52:17.189 -04:00 [INF] CORS policy execution successful.
+2025-04-17 21:52:17.193 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.AuthController.register (FinanceTrackerAPI)'
+2025-04-17 21:52:17.213 -04:00 [INF] Route matched with {action = "register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] register(FinanceTrackerAPI.DTO.UserDTO) on controller FinanceTrackerAPI.Controllers.AuthController (FinanceTrackerAPI).
+2025-04-17 21:52:17.666 -04:00 [ERR] Failed executing DbCommand (5ms) [Parameters=[@__userDTO_name_0='?' (Size = 6)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "users" AS "u"
+    WHERE "u"."name" = @__userDTO_name_0)
+2025-04-17 21:52:17.676 -04:00 [ERR] An exception occurred while iterating over the results of a query for context type 'FinanceTrackerAPI.Data.FinanceContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: users'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: users'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-04-17 21:52:17.686 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.AuthController.register (FinanceTrackerAPI) in 465.579ms
+2025-04-17 21:52:17.692 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.AuthController.register (FinanceTrackerAPI)'
+2025-04-17 21:52:17.694 -04:00 [ERR] Unhandled Exception
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: users'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at FinanceTrackerAPI.Service.UserService.registerUserAsync(UserDTO userDTO) in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Service/UserService.cs:line 49
+   at FinanceTrackerAPI.Controllers.AuthController.register(UserDTO userDTO) in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Controllers/AuthController.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at FinanceTrackerAPI.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Middleware/ExceptionMiddleware.cs:line 17
+2025-04-17 21:52:17.721 -04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5145/api/Auth/register - 500 null null 539.5021ms
+2025-04-17 21:52:37.206 -04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5145/api/Auth/register - application/json 50
+2025-04-17 21:52:37.215 -04:00 [INF] CORS policy execution successful.
+2025-04-17 21:52:37.215 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.AuthController.register (FinanceTrackerAPI)'
+2025-04-17 21:52:37.215 -04:00 [INF] Route matched with {action = "register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] register(FinanceTrackerAPI.DTO.UserDTO) on controller FinanceTrackerAPI.Controllers.AuthController (FinanceTrackerAPI).
+2025-04-17 21:52:37.226 -04:00 [ERR] Failed executing DbCommand (0ms) [Parameters=[@__userDTO_name_0='?' (Size = 6)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "users" AS "u"
+    WHERE "u"."name" = @__userDTO_name_0)
+2025-04-17 21:52:37.227 -04:00 [ERR] An exception occurred while iterating over the results of a query for context type 'FinanceTrackerAPI.Data.FinanceContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: users'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: users'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-04-17 21:52:37.228 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.AuthController.register (FinanceTrackerAPI) in 12.4564ms
+2025-04-17 21:52:37.228 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.AuthController.register (FinanceTrackerAPI)'
+2025-04-17 21:52:37.228 -04:00 [ERR] Unhandled Exception
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: users'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at FinanceTrackerAPI.Service.UserService.registerUserAsync(UserDTO userDTO) in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Service/UserService.cs:line 49
+   at FinanceTrackerAPI.Controllers.AuthController.register(UserDTO userDTO) in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Controllers/AuthController.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at FinanceTrackerAPI.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Middleware/ExceptionMiddleware.cs:line 17
+2025-04-17 21:52:37.230 -04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5145/api/Auth/register - 500 null null 23.891ms
+2025-04-17 21:54:05.805 -04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5145/api/Auth/register - application/json 56
+2025-04-17 21:54:05.808 -04:00 [INF] CORS policy execution successful.
+2025-04-17 21:54:05.808 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.AuthController.register (FinanceTrackerAPI)'
+2025-04-17 21:54:05.809 -04:00 [INF] Route matched with {action = "register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] register(FinanceTrackerAPI.DTO.UserDTO) on controller FinanceTrackerAPI.Controllers.AuthController (FinanceTrackerAPI).
+2025-04-17 21:54:05.817 -04:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-04-17 21:54:05.839 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.AuthController.register (FinanceTrackerAPI) in 30.6768ms
+2025-04-17 21:54:05.840 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.AuthController.register (FinanceTrackerAPI)'
+2025-04-17 21:54:05.840 -04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5145/api/Auth/register - 400 null application/problem+json; charset=utf-8 34.1791ms
+2025-04-17 21:54:15.559 -04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5145/api/Auth/register - application/json 56
+2025-04-17 21:54:15.560 -04:00 [INF] CORS policy execution successful.
+2025-04-17 21:54:15.560 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.AuthController.register (FinanceTrackerAPI)'
+2025-04-17 21:54:15.560 -04:00 [INF] Route matched with {action = "register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] register(FinanceTrackerAPI.DTO.UserDTO) on controller FinanceTrackerAPI.Controllers.AuthController (FinanceTrackerAPI).
+2025-04-17 21:54:15.562 -04:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-04-17 21:54:15.563 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.AuthController.register (FinanceTrackerAPI) in 3.3238ms
+2025-04-17 21:54:15.563 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.AuthController.register (FinanceTrackerAPI)'
+2025-04-17 21:54:15.564 -04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5145/api/Auth/register - 400 null application/problem+json; charset=utf-8 4.5147ms
+2025-04-17 21:54:52.009 -04:00 [INF] Starting the application
+2025-04-17 21:54:52.105 -04:00 [INF] User profile is available. Using '/Users/kunwarsingh/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-04-17 21:54:52.139 -04:00 [INF] Now listening on: http://localhost:5145
+2025-04-17 21:54:52.141 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-17 21:54:52.141 -04:00 [INF] Hosting environment: Development
+2025-04-17 21:54:52.141 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-17 21:54:55.365 -04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5145/api/Auth/register - application/json 50
+2025-04-17 21:54:55.394 -04:00 [INF] CORS policy execution successful.
+2025-04-17 21:54:55.400 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.AuthController.register (FinanceTrackerAPI)'
+2025-04-17 21:54:55.410 -04:00 [INF] Route matched with {action = "register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] register(FinanceTrackerAPI.DTO.UserDTO) on controller FinanceTrackerAPI.Controllers.AuthController (FinanceTrackerAPI).
+2025-04-17 21:54:55.820 -04:00 [ERR] Failed executing DbCommand (6ms) [Parameters=[@__userDTO_name_0='?' (Size = 6)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "users" AS "u"
+    WHERE "u"."name" = @__userDTO_name_0)
+2025-04-17 21:54:55.830 -04:00 [ERR] An exception occurred while iterating over the results of a query for context type 'FinanceTrackerAPI.Data.FinanceContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: users'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: users'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-04-17 21:54:55.834 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.AuthController.register (FinanceTrackerAPI) in 421.6195ms
+2025-04-17 21:54:55.834 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.AuthController.register (FinanceTrackerAPI)'
+2025-04-17 21:54:55.835 -04:00 [ERR] Unhandled Exception
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: users'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at FinanceTrackerAPI.Service.UserService.registerUserAsync(UserDTO userDTO) in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Service/UserService.cs:line 49
+   at FinanceTrackerAPI.Controllers.AuthController.register(UserDTO userDTO) in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Controllers/AuthController.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at FinanceTrackerAPI.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Middleware/ExceptionMiddleware.cs:line 17
+2025-04-17 21:54:55.860 -04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5145/api/Auth/register - 500 null null 495.6567ms
+2025-04-17 21:55:26.544 -04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5145/api/Auth/register - application/json 51
+2025-04-17 21:55:26.546 -04:00 [INF] CORS policy execution successful.
+2025-04-17 21:55:26.547 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.AuthController.register (FinanceTrackerAPI)'
+2025-04-17 21:55:26.547 -04:00 [INF] Route matched with {action = "register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] register(FinanceTrackerAPI.DTO.UserDTO) on controller FinanceTrackerAPI.Controllers.AuthController (FinanceTrackerAPI).
+2025-04-17 21:55:26.557 -04:00 [ERR] Failed executing DbCommand (0ms) [Parameters=[@__userDTO_name_0='?' (Size = 6)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "users" AS "u"
+    WHERE "u"."name" = @__userDTO_name_0)
+2025-04-17 21:55:26.558 -04:00 [ERR] An exception occurred while iterating over the results of a query for context type 'FinanceTrackerAPI.Data.FinanceContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: users'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: users'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-04-17 21:55:26.560 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.AuthController.register (FinanceTrackerAPI) in 13.4199ms
+2025-04-17 21:55:26.561 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.AuthController.register (FinanceTrackerAPI)'
+2025-04-17 21:55:26.561 -04:00 [ERR] Unhandled Exception
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: users'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at FinanceTrackerAPI.Service.UserService.registerUserAsync(UserDTO userDTO) in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Service/UserService.cs:line 49
+   at FinanceTrackerAPI.Controllers.AuthController.register(UserDTO userDTO) in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Controllers/AuthController.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at FinanceTrackerAPI.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Middleware/ExceptionMiddleware.cs:line 17
+2025-04-17 21:55:26.564 -04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5145/api/Auth/register - 500 null null 20.3208ms
+2025-04-17 21:56:32.500 -04:00 [INF] Starting the application
+2025-04-17 21:56:32.660 -04:00 [INF] User profile is available. Using '/Users/kunwarsingh/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-04-17 21:56:32.754 -04:00 [INF] Now listening on: http://localhost:5145
+2025-04-17 21:56:32.756 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-17 21:56:32.756 -04:00 [INF] Hosting environment: Development
+2025-04-17 21:56:32.756 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-17 21:56:40.909 -04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5145/api/Auth/register - application/json 51
+2025-04-17 21:56:40.957 -04:00 [INF] CORS policy execution successful.
+2025-04-17 21:56:40.963 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.AuthController.register (FinanceTrackerAPI)'
+2025-04-17 21:56:40.975 -04:00 [INF] Route matched with {action = "register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] register(FinanceTrackerAPI.DTO.UserDTO) on controller FinanceTrackerAPI.Controllers.AuthController (FinanceTrackerAPI).
+2025-04-17 21:56:52.354 -04:00 [ERR] Failed executing DbCommand (7ms) [Parameters=[@__userDTO_name_0='?' (Size = 6)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "users" AS "u"
+    WHERE "u"."name" = @__userDTO_name_0)
+2025-04-17 21:56:52.369 -04:00 [ERR] An exception occurred while iterating over the results of a query for context type 'FinanceTrackerAPI.Data.FinanceContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: users'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: users'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-04-17 21:56:54.576 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.AuthController.register (FinanceTrackerAPI) in 13598.344ms
+2025-04-17 21:56:54.578 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.AuthController.register (FinanceTrackerAPI)'
+2025-04-17 21:58:23.450 -04:00 [INF] Starting the application
+2025-04-17 21:58:23.497 -04:00 [FTL] Application Startup Failed
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Program.cs:line 71
+2025-04-17 21:58:25.887 -04:00 [INF] Starting the application
+2025-04-17 21:58:25.935 -04:00 [FTL] Application Startup Failed
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Program.cs:line 71
+2025-04-17 22:00:51.375 -04:00 [INF] Starting the application
+2025-04-17 22:00:51.423 -04:00 [FTL] Application Startup Failed
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Program.cs:line 71
+2025-04-17 22:02:25.126 -04:00 [INF] Starting the application
+2025-04-17 22:02:25.266 -04:00 [INF] User profile is available. Using '/Users/kunwarsingh/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-04-17 22:02:25.324 -04:00 [INF] Now listening on: http://localhost:5145
+2025-04-17 22:02:25.326 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-17 22:02:25.326 -04:00 [INF] Hosting environment: Development
+2025-04-17 22:02:25.326 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-17 22:03:24.999 -04:00 [INF] Starting the application
+2025-04-17 22:03:25.047 -04:00 [FTL] Application Startup FailedThe host was aborted.
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Program.cs:line 71
+2025-04-17 22:04:02.332 -04:00 [INF] Starting the application
+2025-04-17 22:04:02.379 -04:00 [FTL] Application Startup FailedThe host was aborted.
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Program.cs:line 71
+2025-04-17 22:04:15.936 -04:00 [INF] Starting the application
+2025-04-17 22:04:15.985 -04:00 [FTL] Application Startup FailedThe host was aborted.
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Program.cs:line 71
+2025-04-17 22:04:22.860 -04:00 [INF] Starting the application
+2025-04-17 22:04:22.906 -04:00 [FTL] Application Startup FailedThe host was aborted.
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Program.cs:line 71
+2025-04-17 22:05:31.893 -04:00 [INF] Starting the application
+2025-04-17 22:05:31.942 -04:00 [FTL] Application Startup FailedThe host was aborted.
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Program.cs:line 71
+2025-04-17 22:05:34.566 -04:00 [INF] Starting the application
+2025-04-17 22:05:34.611 -04:00 [FTL] Application Startup FailedThe host was aborted.
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Program.cs:line 71
+2025-04-17 22:05:50.673 -04:00 [INF] Starting the application
+2025-04-17 22:05:50.721 -04:00 [FTL] Application Startup FailedThe host was aborted.
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Program.cs:line 71
+2025-04-17 22:05:53.097 -04:00 [INF] Starting the application
+2025-04-17 22:05:53.144 -04:00 [FTL] Application Startup FailedThe host was aborted.
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Program.cs:line 71
+2025-04-17 22:08:47.060 -04:00 [INF] Starting the application
+2025-04-17 22:08:47.108 -04:00 [FTL] Application Startup FailedThe host was aborted.
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Program.cs:line 71
+2025-04-17 22:08:49.743 -04:00 [INF] Starting the application
+2025-04-17 22:08:49.789 -04:00 [FTL] Application Startup FailedThe host was aborted.
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Program.cs:line 71
+2025-04-17 22:09:03.168 -04:00 [INF] Starting the application
+2025-04-17 22:09:03.263 -04:00 [INF] User profile is available. Using '/Users/kunwarsingh/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-04-17 22:09:03.299 -04:00 [INF] Now listening on: http://localhost:5145
+2025-04-17 22:09:03.300 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-17 22:09:03.301 -04:00 [INF] Hosting environment: Development
+2025-04-17 22:09:03.301 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-17 22:09:11.223 -04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5145/api/Auth/register - application/json 51
+2025-04-17 22:09:11.252 -04:00 [INF] CORS policy execution successful.
+2025-04-17 22:09:11.258 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.AuthController.register (FinanceTrackerAPI)'
+2025-04-17 22:09:11.269 -04:00 [INF] Route matched with {action = "register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] register(FinanceTrackerAPI.DTO.UserDTO) on controller FinanceTrackerAPI.Controllers.AuthController (FinanceTrackerAPI).
+2025-04-17 22:09:11.668 -04:00 [INF] Executed DbCommand (6ms) [Parameters=[@__userDTO_name_0='?' (Size = 6)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "users" AS "u"
+    WHERE "u"."name" = @__userDTO_name_0)
+2025-04-17 22:09:11.765 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 84), @p1='?' (Size = 6)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "users" ("hashPassword", "name")
+VALUES (@p0, @p1)
+RETURNING "id";
+2025-04-17 22:09:11.777 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-04-17 22:09:11.779 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.AuthController.register (FinanceTrackerAPI) in 509.564ms
+2025-04-17 22:09:11.780 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.AuthController.register (FinanceTrackerAPI)'
+2025-04-17 22:09:11.783 -04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5145/api/Auth/register - 200 null text/plain; charset=utf-8 560.5695ms
+2025-04-17 22:09:38.271 -04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5145/api/Auth/login - application/json 51
+2025-04-17 22:09:38.275 -04:00 [INF] CORS policy execution successful.
+2025-04-17 22:09:38.275 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.AuthController.login (FinanceTrackerAPI)'
+2025-04-17 22:09:38.277 -04:00 [INF] Route matched with {action = "login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(FinanceTrackerAPI.DTO.UserDTO) on controller FinanceTrackerAPI.Controllers.AuthController (FinanceTrackerAPI).
+2025-04-17 22:09:38.313 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__userDTO_name_0='?' (Size = 6)], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."id", "u"."hashPassword", "u"."name"
+FROM "users" AS "u"
+WHERE "u"."name" = @__userDTO_name_0
+LIMIT 2
+2025-04-17 22:09:38.361 -04:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.Threading.Tasks.Task`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-17 22:09:38.387 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.AuthController.login (FinanceTrackerAPI) in 109.6635ms
+2025-04-17 22:09:38.387 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.AuthController.login (FinanceTrackerAPI)'
+2025-04-17 22:09:38.388 -04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5145/api/Auth/login - 200 null application/json; charset=utf-8 116.5846ms
+2025-04-17 22:09:48.590 -04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5145/api/Auth/login - application/json 51
+2025-04-17 22:09:48.594 -04:00 [INF] CORS policy execution successful.
+2025-04-17 22:09:48.595 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.AuthController.login (FinanceTrackerAPI)'
+2025-04-17 22:09:48.595 -04:00 [INF] Route matched with {action = "login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(FinanceTrackerAPI.DTO.UserDTO) on controller FinanceTrackerAPI.Controllers.AuthController (FinanceTrackerAPI).
+2025-04-17 22:09:48.629 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__userDTO_name_0='?' (Size = 6)], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."id", "u"."hashPassword", "u"."name"
+FROM "users" AS "u"
+WHERE "u"."name" = @__userDTO_name_0
+LIMIT 2
+2025-04-17 22:09:48.687 -04:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.Threading.Tasks.Task`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-17 22:09:48.689 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.AuthController.login (FinanceTrackerAPI) in 93.8655ms
+2025-04-17 22:09:48.689 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.AuthController.login (FinanceTrackerAPI)'
+2025-04-17 22:09:48.689 -04:00 [ERR] Unhandled Exception
+System.AggregateException: One or more errors occurred. (IDX10720: Unable to create KeyedHashAlgorithm for algorithm 'HS256', the key size must be greater than: '256' bits, key has '176' bits. (Parameter 'keyBytes'))
+ ---> System.ArgumentOutOfRangeException: IDX10720: Unable to create KeyedHashAlgorithm for algorithm 'HS256', the key size must be greater than: '256' bits, key has '176' bits. (Parameter 'keyBytes')
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.ValidateKeySize(Byte[] keyBytes, String algorithm, Int32 expectedNumberOfBytes)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.CreateKeyedHashAlgorithm()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.CreateInstance()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.Allocate()
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.GetKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.Sign(Byte[] input)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(SecurityToken token)
+   at FinanceTrackerAPI.Service.UserService.loginAsync(UserDTO userDTO) in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Service/UserService.cs:line 44
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at ResultGetter(Object)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at FinanceTrackerAPI.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Middleware/ExceptionMiddleware.cs:line 17
+2025-04-17 22:09:48.697 -04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5145/api/Auth/login - 500 null application/json; charset=utf-8 106.748ms
+2025-04-17 22:09:57.501 -04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5145/api/Auth/login - application/json 51
+2025-04-17 22:09:57.502 -04:00 [INF] CORS policy execution successful.
+2025-04-17 22:09:57.502 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.AuthController.login (FinanceTrackerAPI)'
+2025-04-17 22:09:57.503 -04:00 [INF] Route matched with {action = "login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(FinanceTrackerAPI.DTO.UserDTO) on controller FinanceTrackerAPI.Controllers.AuthController (FinanceTrackerAPI).
+2025-04-17 22:09:57.506 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__userDTO_name_0='?' (Size = 6)], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."id", "u"."hashPassword", "u"."name"
+FROM "users" AS "u"
+WHERE "u"."name" = @__userDTO_name_0
+LIMIT 2
+2025-04-17 22:09:57.560 -04:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.Threading.Tasks.Task`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-17 22:09:57.561 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.AuthController.login (FinanceTrackerAPI) in 57.9688ms
+2025-04-17 22:09:57.561 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.AuthController.login (FinanceTrackerAPI)'
+2025-04-17 22:09:57.561 -04:00 [ERR] Unhandled Exception
+System.AggregateException: One or more errors occurred. (IDX10720: Unable to create KeyedHashAlgorithm for algorithm 'HS256', the key size must be greater than: '256' bits, key has '176' bits. (Parameter 'keyBytes'))
+ ---> System.ArgumentOutOfRangeException: IDX10720: Unable to create KeyedHashAlgorithm for algorithm 'HS256', the key size must be greater than: '256' bits, key has '176' bits. (Parameter 'keyBytes')
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.ValidateKeySize(Byte[] keyBytes, String algorithm, Int32 expectedNumberOfBytes)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.CreateKeyedHashAlgorithm()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.CreateInstance()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.Allocate()
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.GetKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.Sign(Byte[] input)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(SecurityToken token)
+   at FinanceTrackerAPI.Service.UserService.loginAsync(UserDTO userDTO) in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Service/UserService.cs:line 44
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at ResultGetter(Object)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at FinanceTrackerAPI.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Middleware/ExceptionMiddleware.cs:line 17
+2025-04-17 22:09:57.562 -04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5145/api/Auth/login - 500 null application/json; charset=utf-8 60.4707ms
+2025-04-17 22:10:16.977 -04:00 [INF] Starting the application
+2025-04-17 22:10:17.111 -04:00 [INF] User profile is available. Using '/Users/kunwarsingh/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-04-17 22:10:17.164 -04:00 [INF] Now listening on: http://localhost:5145
+2025-04-17 22:10:17.166 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-17 22:10:17.166 -04:00 [INF] Hosting environment: Development
+2025-04-17 22:10:17.166 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-17 22:10:23.050 -04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5145/api/Auth/login - application/json 51
+2025-04-17 22:10:23.098 -04:00 [INF] CORS policy execution successful.
+2025-04-17 22:10:23.104 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.AuthController.login (FinanceTrackerAPI)'
+2025-04-17 22:10:23.116 -04:00 [INF] Route matched with {action = "login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(FinanceTrackerAPI.DTO.UserDTO) on controller FinanceTrackerAPI.Controllers.AuthController (FinanceTrackerAPI).
+2025-04-17 22:10:29.006 -04:00 [INF] Executed DbCommand (7ms) [Parameters=[@__userDTO_name_0='?' (Size = 6)], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."id", "u"."hashPassword", "u"."name"
+FROM "users" AS "u"
+WHERE "u"."name" = @__userDTO_name_0
+LIMIT 2
+2025-04-17 22:10:45.113 -04:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.Threading.Tasks.Task`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-17 22:10:45.166 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.AuthController.login (FinanceTrackerAPI) in 22047.9734ms
+2025-04-17 22:10:45.169 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.AuthController.login (FinanceTrackerAPI)'
+2025-04-17 22:10:47.249 -04:00 [ERR] Unhandled Exception
+System.AggregateException: One or more errors occurred. (IDX10720: Unable to create KeyedHashAlgorithm for algorithm 'HS256', the key size must be greater than: '256' bits, key has '176' bits. (Parameter 'keyBytes'))
+ ---> System.ArgumentOutOfRangeException: IDX10720: Unable to create KeyedHashAlgorithm for algorithm 'HS256', the key size must be greater than: '256' bits, key has '176' bits. (Parameter 'keyBytes')
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.ValidateKeySize(Byte[] keyBytes, String algorithm, Int32 expectedNumberOfBytes)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.CreateKeyedHashAlgorithm()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.CreateInstance()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.Allocate()
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.GetKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.Sign(Byte[] input)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(SecurityToken token)
+   at FinanceTrackerAPI.Service.UserService.loginAsync(UserDTO userDTO) in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Service/UserService.cs:line 44
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at ResultGetter(Object)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at FinanceTrackerAPI.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI/Middleware/ExceptionMiddleware.cs:line 17
+2025-04-17 22:10:47.269 -04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5145/api/Auth/login - 500 null application/json; charset=utf-8 24219.6271ms
