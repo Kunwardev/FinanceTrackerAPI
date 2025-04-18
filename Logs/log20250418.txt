@@ -1,0 +1,18 @@
+2025-04-18 07:31:01.626 -04:00 [INF] Starting the application
+2025-04-18 07:31:01.736 -04:00 [INF] User profile is available. Using '/Users/kunwarsingh/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-04-18 07:31:01.770 -04:00 [INF] Now listening on: http://localhost:5145
+2025-04-18 07:31:01.772 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-18 07:31:01.772 -04:00 [INF] Hosting environment: Development
+2025-04-18 07:31:01.772 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-18 07:31:19.697 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/swagger/index.html - null null
+2025-04-18 07:31:19.774 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/swagger/index.html - 200 null text/html;charset=utf-8 78.0417ms
+2025-04-18 07:31:19.874 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/swagger/v1/swagger.json - null null
+2025-04-18 07:31:19.926 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 51.8991ms
+2025-04-18 07:31:35.393 -04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5145/api/Auth/register - application/json 50
+2025-04-18 07:31:35.398 -04:00 [INF] CORS policy execution successful.
+2025-04-18 07:31:35.400 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.AuthController.register (FinanceTrackerAPI)'
+2025-04-18 07:31:35.413 -04:00 [INF] Route matched with {action = "register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] register(FinanceTrackerAPI.DTO.UserDTO) on controller FinanceTrackerAPI.Controllers.AuthController (FinanceTrackerAPI).
+2025-04-18 07:31:35.515 -04:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-04-18 07:31:35.530 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.AuthController.register (FinanceTrackerAPI) in 116.3147ms
+2025-04-18 07:31:35.531 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.AuthController.register (FinanceTrackerAPI)'
+2025-04-18 07:31:35.532 -04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5145/api/Auth/register - 400 null application/problem+json; charset=utf-8 138.8655ms

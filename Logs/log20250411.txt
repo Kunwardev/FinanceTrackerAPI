@@ -1,0 +1,24 @@
+2025-04-11 11:53:58.403 -04:00 [INF] Starting the application
+2025-04-11 11:53:58.494 -04:00 [INF] Now listening on: http://localhost:5146
+2025-04-11 11:53:58.496 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-11 11:53:58.496 -04:00 [INF] Hosting environment: Development
+2025-04-11 11:53:58.496 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-11 11:53:58.605 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/swagger/index.html - null null
+2025-04-11 11:53:58.697 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/swagger/index.html - 200 null text/html;charset=utf-8 92.7827ms
+2025-04-11 11:53:58.797 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/swagger/v1/swagger.json - null null
+2025-04-11 11:53:58.802 -04:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-04-11 11:53:58.843 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 46.2148ms
+2025-04-11 11:55:13.044 -04:00 [INF] Starting the application
+2025-04-11 11:55:13.139 -04:00 [INF] Now listening on: http://localhost:5146
+2025-04-11 11:55:13.141 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-11 11:55:13.142 -04:00 [INF] Hosting environment: Development
+2025-04-11 11:55:13.142 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-11 11:55:13.221 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/swagger/index.html - null null
+2025-04-11 11:55:13.275 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/swagger/index.html - 200 null text/html;charset=utf-8 54.6685ms
+2025-04-11 11:55:13.321 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/swagger/v1/swagger.json - null null
+2025-04-11 11:55:13.325 -04:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-04-11 11:55:13.334 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 13.3392ms
+2025-04-11 11:55:16.603 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/swagger/index.html - null null
+2025-04-11 11:55:16.605 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/swagger/index.html - 200 null text/html;charset=utf-8 2.4763ms
+2025-04-11 11:55:16.637 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5146/swagger/v1/swagger.json - null null
+2025-04-11 11:55:16.638 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5146/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 0.91ms

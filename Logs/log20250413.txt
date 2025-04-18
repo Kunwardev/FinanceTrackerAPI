@@ -1,0 +1,141 @@
+2025-04-13 12:38:11.190 -04:00 [INF] Starting the application
+2025-04-13 12:38:11.302 -04:00 [INF] Now listening on: http://localhost:5145
+2025-04-13 12:38:11.305 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-13 12:38:11.305 -04:00 [INF] Hosting environment: Development
+2025-04-13 12:38:11.305 -04:00 [INF] Content root path: /Users/kunwarsingh/Documents/VSCode-C#/FinanceTrackerAPI
+2025-04-13 12:38:19.473 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/swagger/index.html - null null
+2025-04-13 12:38:19.533 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/swagger/index.html - 200 null text/html;charset=utf-8 59.9522ms
+2025-04-13 12:38:19.595 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/swagger/v1/swagger.json - null null
+2025-04-13 12:38:19.639 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 44.1471ms
+2025-04-13 12:38:23.662 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/api/Income/getall - null null
+2025-04-13 12:38:23.670 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-13 12:38:23.682 -04:00 [INF] Route matched with {action = "GetAll", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FinanceTrackerAPI.DTO.IncomeDTO]]] GetAll() on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-13 12:38:23.772 -04:00 [INF] Getting All the Data
+2025-04-13 12:38:24.063 -04:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "i"."id", "i"."amount", "i"."datetime", "i"."source"
+FROM "Incomes" AS "i"
+2025-04-13 12:38:24.088 -04:00 [INF] Download Successful with count of 1
+2025-04-13 12:38:24.088 -04:00 [INF] Fetched 1 incomes
+2025-04-13 12:38:24.097 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FinanceTrackerAPI.DTO.IncomeDTO, FinanceTrackerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-13 12:38:24.118 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI) in 434.9963ms
+2025-04-13 12:38:24.118 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-13 12:38:24.121 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/api/Income/getall - 200 null application/json; charset=utf-8 458.5294ms
+2025-04-13 12:38:56.044 -04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5145/api/Income/add - application/json 95
+2025-04-13 12:38:56.047 -04:00 [INF] CORS policy execution successful.
+2025-04-13 12:38:56.048 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.Create (FinanceTrackerAPI)'
+2025-04-13 12:38:56.052 -04:00 [INF] Route matched with {action = "Create", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[FinanceTrackerAPI.DTO.IncomeDTO]] Create(FinanceTrackerAPI.DTO.IncomeDTO) on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-13 12:38:56.094 -04:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-04-13 12:38:56.104 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.Create (FinanceTrackerAPI) in 52.0159ms
+2025-04-13 12:38:56.104 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.Create (FinanceTrackerAPI)'
+2025-04-13 12:38:56.104 -04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5145/api/Income/add - 400 null application/problem+json; charset=utf-8 60.111ms
+2025-04-13 12:38:59.909 -04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5145/api/Income/add - application/json 95
+2025-04-13 12:38:59.910 -04:00 [INF] CORS policy execution successful.
+2025-04-13 12:38:59.911 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.Create (FinanceTrackerAPI)'
+2025-04-13 12:38:59.911 -04:00 [INF] Route matched with {action = "Create", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[FinanceTrackerAPI.DTO.IncomeDTO]] Create(FinanceTrackerAPI.DTO.IncomeDTO) on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-13 12:38:59.918 -04:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-04-13 12:38:59.918 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.Create (FinanceTrackerAPI) in 6.2259ms
+2025-04-13 12:38:59.918 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.Create (FinanceTrackerAPI)'
+2025-04-13 12:38:59.918 -04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5145/api/Income/add - 400 null application/problem+json; charset=utf-8 8.9446ms
+2025-04-13 12:39:14.026 -04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5145/api/Income/add - application/json 81
+2025-04-13 12:39:14.027 -04:00 [INF] CORS policy execution successful.
+2025-04-13 12:39:14.027 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.Create (FinanceTrackerAPI)'
+2025-04-13 12:39:14.027 -04:00 [INF] Route matched with {action = "Create", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[FinanceTrackerAPI.DTO.IncomeDTO]] Create(FinanceTrackerAPI.DTO.IncomeDTO) on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-13 12:39:14.032 -04:00 [INF] Adding Income to the Database
+2025-04-13 12:39:14.085 -04:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Decimal), @p2='?' (DbType = DateTime), @p3='?' (Size = 6)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Incomes" ("id", "amount", "datetime", "source")
+VALUES (@p0, @p1, @p2, @p3);
+2025-04-13 12:39:14.089 -04:00 [INF] Save Successful
+2025-04-13 12:39:14.089 -04:00 [INF] Received income: {"id":2,"source":"Salary","amount":1020,"datetime":"2025-04-13T00:00:00.0000000","$type":"IncomeDTO"}
+2025-04-13 12:39:14.091 -04:00 [INF] Executing OkObjectResult, writing value of type 'FinanceTrackerAPI.DTO.IncomeDTO'.
+2025-04-13 12:39:14.092 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.Create (FinanceTrackerAPI) in 64.6883ms
+2025-04-13 12:39:14.092 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.Create (FinanceTrackerAPI)'
+2025-04-13 12:39:14.092 -04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5145/api/Income/add - 200 null application/json; charset=utf-8 65.633ms
+2025-04-13 12:39:27.305 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/api/Income/getall - null null
+2025-04-13 12:39:27.307 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-13 12:39:27.307 -04:00 [INF] Route matched with {action = "GetAll", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FinanceTrackerAPI.DTO.IncomeDTO]]] GetAll() on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-13 12:39:27.307 -04:00 [INF] Getting All the Data
+2025-04-13 12:39:27.331 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "i"."id", "i"."amount", "i"."datetime", "i"."source"
+FROM "Incomes" AS "i"
+2025-04-13 12:39:27.331 -04:00 [INF] Download Successful with count of 2
+2025-04-13 12:39:27.331 -04:00 [INF] Fetched 2 incomes
+2025-04-13 12:39:27.332 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FinanceTrackerAPI.DTO.IncomeDTO, FinanceTrackerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-13 12:39:27.332 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI) in 25.0453ms
+2025-04-13 12:39:27.332 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-13 12:39:27.333 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/api/Income/getall - 200 null application/json; charset=utf-8 27.9658ms
+2025-04-13 12:39:35.834 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/api/Income/get(2) - null null
+2025-04-13 12:39:35.835 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.Get (FinanceTrackerAPI)'
+2025-04-13 12:39:35.840 -04:00 [INF] Route matched with {action = "Get", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[FinanceTrackerAPI.DTO.IncomeDTO]] Get(Int32) on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-13 12:39:35.843 -04:00 [INF] Fetching Data with Id: 2
+2025-04-13 12:39:35.896 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "i"."id", "i"."amount", "i"."datetime", "i"."source"
+FROM "Incomes" AS "i"
+WHERE "i"."id" = @__p_0
+LIMIT 1
+2025-04-13 12:39:35.896 -04:00 [INF] Fetch Successful
+2025-04-13 12:39:35.896 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[FinanceTrackerAPI.DTO.IncomeDTO, FinanceTrackerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-13 12:39:35.905 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.Get (FinanceTrackerAPI) in 64.793ms
+2025-04-13 12:39:35.905 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.Get (FinanceTrackerAPI)'
+2025-04-13 12:39:35.906 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/api/Income/get(2) - 200 null application/json; charset=utf-8 71.3614ms
+2025-04-13 12:39:59.504 -04:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5145/api/Income/delete2 - null null
+2025-04-13 12:39:59.504 -04:00 [INF] CORS policy execution successful.
+2025-04-13 12:39:59.504 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.Delete (FinanceTrackerAPI)'
+2025-04-13 12:39:59.508 -04:00 [INF] Route matched with {action = "Delete", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(Int32) on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-13 12:39:59.509 -04:00 [INF] Deleting Id: 2
+2025-04-13 12:39:59.511 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "i"."id", "i"."amount", "i"."datetime", "i"."source"
+FROM "Incomes" AS "i"
+WHERE "i"."id" = @__p_0
+LIMIT 1
+2025-04-13 12:39:59.515 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Incomes"
+WHERE "id" = @p0
+RETURNING 1;
+2025-04-13 12:39:59.519 -04:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-04-13 12:39:59.519 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.Delete (FinanceTrackerAPI) in 10.8217ms
+2025-04-13 12:39:59.519 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.Delete (FinanceTrackerAPI)'
+2025-04-13 12:39:59.519 -04:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5145/api/Income/delete2 - 204 null null 15.576ms
+2025-04-13 12:40:00.528 -04:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5145/api/Income/delete2 - null null
+2025-04-13 12:40:00.528 -04:00 [INF] CORS policy execution successful.
+2025-04-13 12:40:00.529 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.Delete (FinanceTrackerAPI)'
+2025-04-13 12:40:00.529 -04:00 [INF] Route matched with {action = "Delete", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(Int32) on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-13 12:40:00.529 -04:00 [INF] Deleting Id: 2
+2025-04-13 12:40:00.532 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "i"."id", "i"."amount", "i"."datetime", "i"."source"
+FROM "Incomes" AS "i"
+WHERE "i"."id" = @__p_0
+LIMIT 1
+2025-04-13 12:40:00.533 -04:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-04-13 12:40:00.534 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.Delete (FinanceTrackerAPI) in 5.5241ms
+2025-04-13 12:40:00.534 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.Delete (FinanceTrackerAPI)'
+2025-04-13 12:40:00.534 -04:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5145/api/Income/delete2 - 404 null application/problem+json; charset=utf-8 6.3391ms
+2025-04-13 12:40:06.985 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/api/Income/getall - null null
+2025-04-13 12:40:06.985 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-13 12:40:06.985 -04:00 [INF] Route matched with {action = "GetAll", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FinanceTrackerAPI.DTO.IncomeDTO]]] GetAll() on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-13 12:40:06.986 -04:00 [INF] Getting All the Data
+2025-04-13 12:40:06.990 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "i"."id", "i"."amount", "i"."datetime", "i"."source"
+FROM "Incomes" AS "i"
+2025-04-13 12:40:06.992 -04:00 [INF] Download Successful with count of 1
+2025-04-13 12:40:06.992 -04:00 [INF] Fetched 1 incomes
+2025-04-13 12:40:06.993 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FinanceTrackerAPI.DTO.IncomeDTO, FinanceTrackerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-13 12:40:06.993 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI) in 7.8967ms
+2025-04-13 12:40:06.993 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.GetAll (FinanceTrackerAPI)'
+2025-04-13 12:40:06.993 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/api/Income/getall - 200 null application/json; charset=utf-8 8.4897ms
+2025-04-13 12:40:14.152 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/api/Income/get(2) - null null
+2025-04-13 12:40:14.153 -04:00 [INF] Executing endpoint 'FinanceTrackerAPI.Controllers.IncomeController.Get (FinanceTrackerAPI)'
+2025-04-13 12:40:14.153 -04:00 [INF] Route matched with {action = "Get", controller = "Income"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[FinanceTrackerAPI.DTO.IncomeDTO]] Get(Int32) on controller FinanceTrackerAPI.Controllers.IncomeController (FinanceTrackerAPI).
+2025-04-13 12:40:14.154 -04:00 [INF] Fetching Data with Id: 2
+2025-04-13 12:40:14.156 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "i"."id", "i"."amount", "i"."datetime", "i"."source"
+FROM "Incomes" AS "i"
+WHERE "i"."id" = @__p_0
+LIMIT 1
+2025-04-13 12:40:14.156 -04:00 [INF] Fetch Successful
+2025-04-13 12:40:14.158 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[FinanceTrackerAPI.DTO.IncomeDTO, FinanceTrackerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-13 12:40:14.159 -04:00 [INF] Executed action FinanceTrackerAPI.Controllers.IncomeController.Get (FinanceTrackerAPI) in 5.7746ms
+2025-04-13 12:40:14.159 -04:00 [INF] Executed endpoint 'FinanceTrackerAPI.Controllers.IncomeController.Get (FinanceTrackerAPI)'
+2025-04-13 12:40:14.159 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/api/Income/get(2) - 200 null application/json; charset=utf-8 6.5084ms
+2025-04-13 12:40:34.108 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/$metadata - null null
+2025-04-13 12:40:34.108 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/$metadata - 404 0 null 0.5532ms
+2025-04-13 12:40:34.109 -04:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5145/$metadata, Response status code: 404
